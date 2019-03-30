@@ -12,9 +12,7 @@
 \usepackage{blindtext}
 \graphicspath{{pics/}}
 
-% \usetheme{Warsaw}
 \usetheme{Frankfurt}
-% \usetheme{Madrid}
 
 \title{Determinants}
 \subtitle{Group 12}
@@ -39,7 +37,6 @@
 
 \begin{frame}{What is LU decomposition?}
 
-    % TODO
     Somebody else do this section
 
     \begin{itemize}
@@ -54,84 +51,96 @@
 
 \begin{frame}{Does the LU decomposition always work}
 
-\textbf{Cases when the LU factorization exists.}
+    \textbf{Cases when the LU factorization exists.}
 
-  \begin{itemize}
-      \item A $LUP$ factorization will always exist for a square matrix $A$.
-      \item If a square matrix A is invertible and all its leading principal minors are nonzero, then a LU factorization will exist.
-      
-      
-  \end{itemize}
-        
-        
+    \begin{itemize}
+        \item A PLU factorization will always exist for a square matrix $A$.
+        \item If a square matrix A is invertible and all its leading principal minors are nonzero,
+            then a LU factorization will exist.
+    \end{itemize}
+
+
 \end{frame}
 
 \begin{frame}{Does the LU decomposition always work (cont.)}
 
-\textbf{Cases where LU factorization will not always exist.}
-\begin{itemize}
-     \item If $A$ is a singular matrix (i.e. det$(A) = 0$), with $rank(A)=k$, we can’t know for sure if the $LU$ factorization will exist.  
-     
-         \begin{itemize}
-             \item If the first $k$ leading principal minors are nonzero, the LU factorization exists.
-             \item For an $nxn$ matrix $A$ the $LU$ factorization exists if $$rank(A_{1,1}) + n \geq rank\begin{pmatrix}A_{1,1} & A_{1,2}\end{pmatrix} + rank\begin{pmatrix}A_{1,1} \\ A_{2,1} \end{pmatrix}$$
-         \end{itemize}
-\end{itemize}
+    \textbf{Cases where LU factorization will not always exist.}
+    \begin{itemize}
+        \item If $A$ is a singular matrix (i.e. $\det(A) = 0$), with $\text{rank}(A)=k$, we can't know for
+            sure if the LU factorization will exist.
+
+            \begin{itemize}
+                \item If the first $k$ leading principal minors are non-zero, the LU factorization
+                    exists.
+                \item For an $n \times n$ matrix $A$ the LU factorization exists if
+                    \[
+                        \text{rank}(A_{1,1}) + n \geq \text{rank}
+                        \begin{pmatrix}
+                            A_{1,1} & A_{1,2}
+                        \end{pmatrix}
+                        + \text{rank}
+                        \begin{pmatrix}
+                            A_{1,1} \\ A_{2,1}
+                        \end{pmatrix}
+                    \]
+            \end{itemize}
+
+    \end{itemize}
 
 \end{frame}
 
-\begin{frame}{Does LU decompostion always work (cont.)}
+\begin{frame}{Does LU decomposition always work (cont.)}
 
-Simple example of when LU decompostion fails 
-\bigbreak
-\[
-\begin{pmatrix}
-0 & 1\\ 1 & 0
-\end{pmatrix}.
-\]
+    Simple example of when LU decomposition fails
+    \[
+        \begin{pmatrix}
+            0 & 1\\ 1 & 0
+        \end{pmatrix}
+    \]
+
 \end{frame}
-
 
 \subsection{How it helps us compute determinants}
 
 \begin{frame}{How it helps us compute determinants}
 
-   We first start with $PA=LU.$ 
-   
-    \begin{align}
-     A &= P^{-1}LU \\
-        &= P^T LU \\ 
-    \end{align}
-    
+    We first start with $PA = LU$
+
+    \begin{align*}
+        A &= P^{-1}LU \\
+          &= P^T LU
+    \end{align*}
+
     since $P^{-1} = P^T$ by definition of an orthogonal matrix.
-    \break
+
 \end{frame}
 
 \begin{frame}{How it helps us compute determinants (cont.)}
 
     Now we have $A=P^T LU$. So in a form where we can easily calculate the determinant.
-    
-   \begin{align}
-    \text{det}(A) &= \text{det}(P^T)\text{det}(L)\text{det}(U) \\
-             &= \text{det}(P)\text{det}(L)\text{det}(U) \\ 
-    \end{align} 
-    We can make this step as we know from algebra that, $\text{det}(AB) = \text{det}(A)\text{det}(B)$ and also that $\text{det}(A) = \text{det}(A^T)$.
+
+    \begin{align*}
+        \det(A) &= \det(P^T)\cdot\det(L)\cdot\det(U) \\
+                &= \det(P)\cdot\det(L)\cdot\det(U)
+    \end{align*}
+    We can make this step as we know from algebra that,
+    $\det(AB) = \det(A)\det(B)$ and also that $\det(A) = \det(A^T)$.
 
 \end{frame}
 
 \begin{frame}{How it helps us compute determinants (cont.)}
 
-Finally we have 
+    Finally we have
 
-$$ \text{det}(A) = (-1)^s \left 
-(\prod_{i=1}^{n} l_{ii} \right ) \left (\prod_{i=1}^{n} u_{ii} \right ) $$
+    \[
+        \det(A) = {(-1)}^s \left( \prod_{i=1}^{n} l_{i,i} \right)
+        \left( \prod_{i=1}^{n} u_{i,i} \right)
+    \]
 
-where s is the number of row exchanges in the decomposition.
-
+    with $s$ being the number of row exchanges in the decomposition,
+    which is the parity of the permutation matrix.
 
 \end{frame}
-
-
 
 \section{Other algorithms for computing determinants}
 
@@ -142,8 +151,8 @@ where s is the number of row exchanges in the decomposition.
     \begin{block}{Definition}
         The Leibniz formula defines the determinant of $A \in \mathbb{M}(n)$ as
         \[
-            |A| = \sum_{\sigma \in \mathfrak{S}_n} \mathrm{sgn}(\sigma)
-            \prod_{i=1}^n a_{i \sigma(i)}
+            \det(A) = \sum_{\sigma \in \mathfrak{S}_n} \text{sgn}(\sigma)
+            \prod_{i=1}^n a_{i,\sigma(i)}
         \]
         where $\mathfrak{S}_n$ is the set of permutations length $n$.
     \end{block}
@@ -163,9 +172,9 @@ where s is the number of row exchanges in the decomposition.
         The formula for the (1st row) Laplace expansion of $A \in \mathbb{M}(n)$
         is given as:
         \[
-            |A| = \sum_{j=1}^n a_{1j}\cdot C_{1j}
+            \det(A) = \sum_{j=1}^n a_{1,j}\cdot C_{1,j}
         \]
-        where $C_{ij}$ is the $(i, j)$ cofactor of $A$.
+        where $C_{i,j}$ is the $(i, j)$ cofactor of $A$.
     \end{block}
 
     Its runtime complexity of $\mathcal{O}(N!)$ is poor.
@@ -240,7 +249,7 @@ where s is the number of row exchanges in the decomposition.
         \item The runtime complexity is $\mathcal{O}(N^3)$ which is the same as conventional
             Gaussian Elimination, whilst preserving exactness.
 
-        % TODO
+            % TODO
 
     \end{itemize}
 
@@ -255,13 +264,13 @@ where s is the number of row exchanges in the decomposition.
     Define $\mu : \mathbb{M}(n) \to \mathbb{M}(n)$:
     \[
         \mu(X) =
-        \begin{bmatrix}{}
+        \begin{pmatrix}{}
             \mu_{2,2} - x_{2,2} & x_{1,2}             & \cdots & x_{1,n-1}           & x_{1,n} \\
             0                   & \mu_{3,3} - x_{3,3} & \cdots & x_{2,n-1}           & x_{2,n} \\
             \vdots              & \vdots              & \ddots & \vdots              & \vdots \\
             0                   & 0                   & \cdots & \mu_{n,n} - x_{n,n} & x_{n-1,n} \\
             0                   & 0                   & \cdots & 0                   & 0
-        \end{bmatrix}
+        \end{pmatrix}
     \]
     and $F_A : \mathbb{M}(n) \to \mathbb{M}(n)$,
     with $A \in \mathbb{M}(n)$
@@ -279,16 +288,16 @@ where s is the number of row exchanges in the decomposition.
     \begin{block}{Bird's Theorem}
         \[
             F_A^{n-1}(A) =
-            \begin{bmatrix}{}
+            \begin{pmatrix}{}
                 d      & 0      & \cdots & 0 \\
                 0      & 0      & \cdots & 0 \\
                 \vdots & \vdots & \ddots & \vdots \\
                 0      & 0      & 0      & 0
-            \end{bmatrix}
+            \end{pmatrix}
             \text{with} \ d =
             \begin{cases}{}
-                |A|  & \text{odd} \ n \\
-                -|A| & \text{even} \ n \\
+                \det(A)  & \text{odd} \ n \\
+                -\det(A) & \text{even} \ n \\
             \end{cases}
         \]
     \end{block}
