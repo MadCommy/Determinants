@@ -36,111 +36,184 @@
 \subsection{What is LU decomposition?}
 
 \begin{frame}{What is LU decomposition?}
+    \begin{block}{Definition}
+        An LU decomposition of an invertible matrix $A$ is a factorization
+        \[
+            A = L U
+        \]
+        where $L$ and $U$ are lower and upper triangular matrices, respectively.
+    \end{block}
+\end{frame}
 
-    Somebody else do this section
+\subsection{Is there always an LU decomposition?}
 
-    \begin{itemize}
-        \item What LU decomposition is
-        \item Its limitations
-        \item How PLU decomposition addresses these limitations
-    \end{itemize}
+\begin{frame}{Is there always an LU decomposition?}
 
- \end{frame}
+    No.
 
-\subsection{Does it always work}
+    An LU decomposition of $A$ exists if and only if each of its leading principle minors
+    (contiguous square submatrices in the top-left corner of $A$),
+    are also invertible.
 
-\begin{frame}{Does the LU decomposition always work}
+    \begin{exampleblock}{Example}
+        \[
+            \begin{pmatrix}{}
+                0 & 1 \\
+                1 & 0
+            \end{pmatrix}
+        \]
+        This matrix is invertible but has no LU decomposition.
+    \end{exampleblock}
 
-    \textbf{Cases when the LU factorization exists.}
+    \begin{alertblock}{}
+        What can we do?
+    \end{alertblock}
 
-    \begin{itemize}
-        \item A PLU factorization will always exist for a square matrix $A$.
-        \item If a square matrix A is invertible and all its leading principal minors are nonzero,
-            then a LU factorization will exist.
-    \end{itemize}
+    % TODO: give more distinction between LU and PLU factorization
+    % Jumped into PLU without defining what it is and how it is distinct from LU
 
+    % \textbf{Cases when the LU factorization exists}
+    % \begin{itemize}
+    %     \item A PLU factorization will always exist for a square matrix $A$.
+    %     \item If a square matrix A is invertible and all its leading principal minors are nonzero,
+    %         then a LU factorization will exist.
+    % \end{itemize}
 
 \end{frame}
 
-\begin{frame}{Does the LU decomposition always work (cont.)}
+\subsection{PLU decomposition}
 
-    \textbf{Cases where LU factorization will not always exist.}
-    \begin{itemize}
-        \item If $A$ is a singular matrix (i.e. $\det(A) = 0$), with $\text{rank}(A)=k$, we can't know for
-            sure if the LU factorization will exist.
+\begin{frame}{PLU decomposition}
 
-            \begin{itemize}
-                \item If the first $k$ leading principal minors are non-zero, the LU factorization
-                    exists.
-                \item For an $n \times n$ matrix $A$ the LU factorization exists if
-                    \[
-                        \text{rank}(A_{1,1}) + n \geq \text{rank}
-                        \begin{pmatrix}
-                            A_{1,1} & A_{1,2}
-                        \end{pmatrix}
-                        + \text{rank}
-                        \begin{pmatrix}
-                            A_{1,1} \\ A_{2,1}
-                        \end{pmatrix}
-                    \]
-            \end{itemize}
+    \emph{Partial pivoting}.
 
-    \end{itemize}
+    We can pivot the matrix into the correct form by multiplication with
+    an orthogonal, permutation matrix $P$ (representing a permutation $\sigma_P$)
+    which gives us the PLU decomposition:
 
-\end{frame}
-
-\begin{frame}{Does LU decomposition always work (cont.)}
-
-    Simple example of when LU decomposition fails
     \[
-        \begin{pmatrix}
-            0 & 1\\ 1 & 0
-        \end{pmatrix}
+        \sigma_P(A) = PA = LU
     \]
 
+    \begin{block}{}
+        This technique works on \emph{any} invertible matrix.
+    \end{block}
+
 \end{frame}
+
+% \begin{frame}{Does the LU decomposition always work (cont.)}
+
+%     \textbf{Cases in which an LU factorization will not always exist}
+%     \begin{itemize}
+%         \item If $A$ is a singular matrix (i.e. $\det(A) = 0$), with $\text{rank}(A)=k$,
+%             we can't know for sure if the LU factorization will exist.
+
+%             \begin{itemize}
+%                 \item If the first $k$ leading principal minors are non-zero, the LU factorization
+%                     exists.
+%                 \item For an $n \times n$ matrix $A$ the LU factorization exists if
+%                     \[
+%                         \text{rank}(A_{1,1}) + n \geq \text{rank}
+%                         \begin{pmatrix}
+%                             A_{1,1} & A_{1,2}
+%                         \end{pmatrix}
+%                         + \text{rank}
+%                         \begin{pmatrix}
+%                             A_{1,1} \\ A_{2,1}
+%                         \end{pmatrix}
+%                     \]
+%             \end{itemize}
+
+%     \end{itemize}
+
+% \end{frame}
+
+% \begin{frame}{Does LU decomposition always work (cont.)}
+
+%     Simple example of when LU decomposition fails
+%     \[
+%         \begin{pmatrix}
+%             0 & 1\\ 1 & 0
+%         \end{pmatrix}
+%     \]
+
+% \end{frame}
 
 \subsection{How it helps us compute determinants}
 
 \begin{frame}{How it helps us compute determinants}
 
-    We first start with $PA = LU$
-
+    Now that we have $PA = LU$, it follows that
     \begin{align*}
         A &= P^{-1}LU \\
           &= P^T LU
     \end{align*}
-
     since $P^{-1} = P^T$ by definition of an orthogonal matrix.
 
 \end{frame}
 
 \begin{frame}{How it helps us compute determinants (cont.)}
 
-    Now we have $A=P^T LU$. So in a form where we can easily calculate the determinant.
-
+    Now that we have $A=P^T LU$, it follows that
     \begin{align*}
-        \det(A) &= \det(P^T)\cdot\det(L)\cdot\det(U) \\
-                &= \det(P)\cdot\det(L)\cdot\det(U)
+        \det(A)  & = \det(P^T L U) & \\
+                 & = \det(P^T)\cdot \det(L)\cdot \det(U) & \text{(Thm. 4.4.1)} \\
+                 & = \det(P)\cdot \det(L)\cdot \det(U)   & \text{(Lem. 4.4.4)}
     \end{align*}
-    We can make this step as we know from algebra that,
-    $\det(AB) = \det(A)\det(B)$ and also that $\det(A) = \det(A^T)$.
+    Given that
+    \begin{itemize}
+        \item the determinant of a triangular matrix is the product of its diagonal elements
+        \item the determinant of a permutation matrix ($P$) is the parity of the permutation
+            it represents ($\sigma_P$)
+    \end{itemize}
+    it follows that
+    \begin{block}{}
+        \[
+            \det(A) = \text{sgn}(\sigma_P) \cdot \left( \prod_{i=1}^{n} l_{i,i} \right)
+            \left( \prod_{i=1}^{n} u_{i,i} \right)
+        \]
+    \end{block}
+
+    % We can make this step as we know from algebra that
+    % $\det(AB) = \det(A)\cdot \det(B)$ and also that $\det(A) = \det(A^T)$.
 
 \end{frame}
 
-\begin{frame}{How it helps us compute determinants (cont.)}
+\subsection{Runtime analysis}
 
-    Finally we have
+\begin{frame}{Runtime analysis}
+    How quick is it?
+    \begin{itemize}
+        \item The PLU decomposition can be computed in $\mathcal{O}(n^3)$ time.
+        \item The determinants of the triangular matrices computed in $\mathcal{O}(n)$ time.
+        \item The parity of the permutation matrix in $\mathcal{O}(n^2)$ time.
+    \end{itemize}
 
+    Therefore the total runtime for computing the determinant using the method is
     \[
-        \det(A) = {(-1)}^s \left( \prod_{i=1}^{n} l_{i,i} \right)
-        \left( \prod_{i=1}^{n} u_{i,i} \right)
+        \mathcal{O}(n^3) + \mathcal{O}(n^2) + \mathcal{O}(n) = \mathcal{O}(n^3)
     \]
 
-    with $s$ being the number of row exchanges in the decomposition,
-    which is the parity of the permutation matrix.
+    What are some other methods to compute determinants?
 
 \end{frame}
+
+% \begin{frame}{How it helps us compute determinants (cont.)}
+
+%     Finally we have
+
+%     \begin{block}{}
+%         \[
+%             % \det(A) = {(-1)}^s \left( \prod_{i=1}^{n} l_{i,i} \right)
+%             \det(A) = \text{sgn}(\sigma_P) \cdot \left( \prod_{i=1}^{n} l_{i,i} \right)
+%             \left( \prod_{i=1}^{n} u_{i,i} \right)
+%         \]
+%     \end{block}
+
+%     with $s$ being the number of row exchanges in the decomposition,
+%     which is the parity of the permutation represented by $P$.
+
+% \end{frame}
 
 \section{Other algorithms for computing determinants}
 
@@ -151,13 +224,13 @@
     \begin{block}{Definition}
         The Leibniz formula defines the determinant of $A \in \mathbb{M}(n)$ as
         \[
-            \det(A) = \sum_{\sigma \in \mathfrak{S}_n} \text{sgn}(\sigma)
-            \prod_{i=1}^n a_{i,\sigma(i)}
+            \det(A) = \sum_{\sigma \in \mathfrak{S}_n}
+            \left( \text{sgn}(\sigma) \cdot \prod_{i=1}^n a_{i,\sigma(i)} \right)
         \]
         where $\mathfrak{S}_n$ is the set of permutations length $n$.
     \end{block}
 
-    Computing the determinant using this method is slow with runtime $\mathcal{O}((N+1)!)$.
+    Computing the determinant using this method is slow with runtime $\mathcal{O}((n+1)!)$.
 
 \end{frame}
 
@@ -172,12 +245,12 @@
         The formula for the (1st row) Laplace expansion of $A \in \mathbb{M}(n)$
         is given as:
         \[
-            \det(A) = \sum_{j=1}^n a_{1,j}\cdot C_{1,j}
+            \det(A) = \sum_{j=1}^n a_{1,j}\, C_{1,j}
         \]
         where $C_{i,j}$ is the $(i, j)$ cofactor of $A$.
     \end{block}
 
-    Its runtime complexity of $\mathcal{O}(N!)$ is poor.
+    Its runtime complexity of $\mathcal{O}(n!)$ is poor.
 
 \end{frame}
 
@@ -197,7 +270,7 @@
         \includegraphics[height=180]{laplace-lu}
     \end{center}
 
-    The difference between exponential and polynomial-time functions is clear.
+    The difference between the exponential and polynomial-time function is clear.
     % Let's look at a better algorithm.
 \end{frame}
 
@@ -208,10 +281,10 @@
     \begin{itemize}
 
         \item The determinant of a triangular matrix can be computed by taking the product of its
-            diagonal entries (which is a quick $\mathcal{O}(N)$ operation).
+            diagonal entries (which is a quick $\mathcal{O}(n)$ operation).
 
         \item Any invertible square matrix can be transformed into echelon form by performing
-            Gaussian elimination, which takes $\mathcal{O}(N^3)$ time.
+            Gaussian elimination, which takes $\mathcal{O}(n^3)$ time.
 
     \end{itemize}
 
@@ -237,6 +310,10 @@
 
 \end{frame}
 
+\begin{frame}{Gaussian elimination algorithm}
+    % TODO: possibly give an algorithm?
+\end{frame}
+
 \subsection{Bareiss algorithm}
 
 \begin{frame}{Bareiss algorithm}
@@ -246,10 +323,10 @@
         \item Addresses the issue of precision-loss by performing \emph{integer-preserving}
             Gaussian elimination on integer matrices.
 
-        \item The runtime complexity is $\mathcal{O}(N^3)$ which is the same as conventional
+        \item The runtime complexity is $\mathcal{O}(n^3)$ which is the same as conventional
             Gaussian Elimination, whilst preserving exactness.
 
-            % TODO
+            % TODO: possibly give an algorithm?
 
     \end{itemize}
 
@@ -340,12 +417,12 @@
             \toprule
             \emph{Algorithm}     & \emph{Runtime}           & \emph{Exact} \\
             \midrule
-            Leibniz formula      & $\mathcal{O}((N+1)!)$    & Yes \\
-            Laplace expansion    & $\mathcal{O}(N!)$        & Yes \\
-            LU decomposition     & $\mathcal{O}(N^3)$       & No \\
-            Gaussian elimination & $\mathcal{O}(N^3)$       & No \\
-            Bareiss algorithm    & $\mathcal{O}(N^3)$       & Yes \\
-            Bird's algorithm     & $\mathcal{O}(N^{3.8})$   & Yes \\
+            Leibniz formula      & $\mathcal{O}((n+1)!)$    & Yes \\
+            Laplace expansion    & $\mathcal{O}(n!)$        & Yes \\
+            LU decomposition     & $\mathcal{O}(n^3)$       & No \\
+            Gaussian elimination & $\mathcal{O}(n^3)$       & No \\
+            Bareiss algorithm    & $\mathcal{O}(n^3)$       & Yes \\
+            Bird's algorithm     & $\mathcal{O}(n^{3.8})$   & Yes \\
             \bottomrule
         \end{tabular}
     \end{center}

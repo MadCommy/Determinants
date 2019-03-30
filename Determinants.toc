@@ -1,11 +1,13 @@
 \beamer@sectionintoc {1}{Using LU decomposition to compute determinants}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{What is LU decomposition?}{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{Does it always work}{4}{0}{1}
-\beamer@subsectionintoc {1}{3}{How it helps us compute determinants}{7}{0}{1}
-\beamer@sectionintoc {2}{Other algorithms for computing determinants}{10}{0}{2}
-\beamer@subsectionintoc {2}{1}{Leibniz formula}{10}{0}{2}
-\beamer@subsectionintoc {2}{2}{Laplace expansion}{11}{0}{2}
-\beamer@subsectionintoc {2}{3}{Gaussian elimination}{14}{0}{2}
+\beamer@subsectionintoc {1}{2}{Is there always an LU decomposition?}{4}{0}{1}
+\beamer@subsectionintoc {1}{3}{PLU decomposition}{5}{0}{1}
+\beamer@subsectionintoc {1}{4}{How it helps us compute determinants}{6}{0}{1}
+\beamer@subsectionintoc {1}{5}{Runtime analysis}{8}{0}{1}
+\beamer@sectionintoc {2}{Other algorithms for computing determinants}{9}{0}{2}
+\beamer@subsectionintoc {2}{1}{Leibniz formula}{9}{0}{2}
+\beamer@subsectionintoc {2}{2}{Laplace expansion}{10}{0}{2}
+\beamer@subsectionintoc {2}{3}{Gaussian elimination}{13}{0}{2}
 \beamer@subsectionintoc {2}{4}{Bareiss algorithm}{17}{0}{2}
 \beamer@subsectionintoc {2}{5}{Bird's algorithm}{18}{0}{2}
 \beamer@sectionintoc {3}{Epilogue}{21}{0}{3}
