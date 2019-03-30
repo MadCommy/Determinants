@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.3.25)  30 MAR 2019 19:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.3.25)  30 MAR 2019 20:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -819,26 +819,42 @@ Package pdftex.def Info: pics/leibniz-laplace.pdf  used on input line 192.
 [12
 
  <./pics/leibniz-laplace.pdf>]
+<pics/laplace-lu.pdf, id=750, 401.5pt x 401.5pt>
 
-./Determinants.tex:202: LaTeX Error: File `laplace-lu' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
+./Determinants.tex:202: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
 l.202 \end{frame}
                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
 
+./Determinants.tex:202: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.202 \end{frame}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: pics/laplace-lu.pdf Graphic file (type pdf)
+<use pics/laplace-lu.pdf>
+Package pdftex.def Info: pics/laplace-lu.pdf  used on input line 202.
+(pdftex.def)             Requested size: 180.00554pt x 180.0pt.
 [13
 
-] [14
+ <./pics/laplace-lu.pdf>] [14
 
 ]
-<pics/lu-gauss.pdf, id=848, 401.5pt x 401.5pt>
+<pics/lu-gauss.pdf, id=855, 401.5pt x 401.5pt>
 
 ./Determinants.tex:229: Illegal unit of measure (pt inserted).
 <to be read again> 
@@ -879,7 +895,7 @@ Package pdftex.def Info: pics/lu-gauss.pdf  used on input line 229.
 ] [19
 
 ]
-<pics/bird-lu.pdf, id=1099, 401.5pt x 401.5pt>
+<pics/bird-lu.pdf, id=1106, 401.5pt x 401.5pt>
 
 ./Determinants.tex:330: Illegal unit of measure (pt inserted).
 <to be read again> 
@@ -914,7 +930,7 @@ Package pdftex.def Info: pics/bird-lu.pdf  used on input line 330.
  <./pics/bird-lu.pdf>] [21
 
 ]
-<pics/gauss-maple.pdf, id=1203, 401.5pt x 401.5pt>
+<pics/gauss-maple.pdf, id=1210, 401.5pt x 401.5pt>
 
 ./Determinants.tex:365: Illegal unit of measure (pt inserted).
 <to be read again> 
@@ -967,18 +983,18 @@ Package rerunfilecheck Info: File `Determinants.out' has not changed.
 (rerunfilecheck)             Checksum: 80E6CBF21BE2ADE569F001A0017FC45B;936.
  ) 
 Here is how much of TeX's memory you used:
- 17869 strings out of 492616
- 337714 string characters out of 6135177
- 437629 words of memory out of 5000000
- 21276 multiletter control sequences out of 15000+600000
+ 17860 strings out of 492616
+ 337779 string characters out of 6135177
+ 437678 words of memory out of 5000000
+ 21280 multiletter control sequences out of 15000+600000
  15848 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,20n,63p,779b,768s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Determinants.pdf (23 pages, 229047 bytes).
+Output written on Determinants.pdf (23 pages, 235239 bytes).
 PDF statistics:
- 1373 PDF objects out of 1440 (max. 8388607)
- 1268 compressed objects within 13 object streams
+ 1380 PDF objects out of 1440 (max. 8388607)
+ 1272 compressed objects within 13 object streams
  60 named destinations out of 1000 (max. 500000)
- 227 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 232 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -342,6 +342,9 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/euler/eufm7.tfm
 INPUT pics/leibniz-laplace.pdf
 INPUT ./pics/leibniz-laplace.pdf
 INPUT ./pics/leibniz-laplace.pdf
+INPUT pics/laplace-lu.pdf
+INPUT ./pics/laplace-lu.pdf
+INPUT ./pics/laplace-lu.pdf
 INPUT pics/lu-gauss.pdf
 INPUT ./pics/lu-gauss.pdf
 INPUT ./pics/lu-gauss.pdf
