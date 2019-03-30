@@ -50,14 +50,88 @@
 
 \end{frame}
 
+\subsection{Does it always work}
+
+\begin{frame}{Does the LU decomposition always work}
+
+\textbf{Cases when the LU factorization exists.}
+
+  \begin{itemize}
+      \item A $LUP$ factorization will always exist for a square matrix $A$.
+      \item If a square matrix A is invertible and all its leading principal minors are nonzero, then a LU factorization will exist.
+      
+      
+  \end{itemize}
+        
+        
+\end{frame}
+
+\begin{frame}{Does the LU decomposition always work (cont.)}
+
+\textbf{Cases where LU factorization will not always exist.}
+\begin{itemize}
+     \item If $A$ is a singular matrix (i.e. det$(A) = 0$), with $rank(A)=k$, we can’t know for sure if the $LU$ factorization will exist.  
+     
+         \begin{itemize}
+             \item If the first $k$ leading principal minors are nonzero, the LU factorization exists.
+             \item For an $nxn$ matrix $A$ the $LU$ factorization exists if $$rank(A_{1,1}) + n \geq rank\begin{pmatrix}A_{1,1} & A_{1,2}\end{pmatrix} + rank\begin{pmatrix}A_{1,1} \\ A_{2,1} \end{pmatrix}$$
+         \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Does LU decompostion always work (cont.)}
+
+Simple example of when LU decompostion fails 
+\bigbreak
+\[
+\begin{pmatrix}
+0 & 1\\ 1 & 0
+\end{pmatrix}.
+\]
+\end{frame}
+
+
 \subsection{How it helps us compute determinants}
 
 \begin{frame}{How it helps us compute determinants}
 
-    % TODO
-    some maths.
+   We first start with $PA=LU.$ 
+   
+    \begin{align}
+     A &= P^{-1}LU \\
+        &= P^T LU \\ 
+    \end{align}
+    
+    since $P^{-1} = P^T$ by definition of an orthogonal matrix.
+    \break
+\end{frame}
+
+\begin{frame}{How it helps us compute determinants (cont.)}
+
+    Now we have $A=P^T LU$. So in a form where we can easily calculate the determinant.
+    
+   \begin{align}
+    \text{det}(A) &= \text{det}(P^T)\text{det}(L)\text{det}(U) \\
+             &= \text{det}(P)\text{det}(L)\text{det}(U) \\ 
+    \end{align} 
+    We can make this step as we know from algebra that, $\text{det}(AB) = \text{det}(A)\text{det}(B)$ and also that $\text{det}(A) = \text{det}(A^T)$.
 
 \end{frame}
+
+\begin{frame}{How it helps us compute determinants (cont.)}
+
+Finally we have 
+
+$$ \text{det}(A) = (-1)^s \left 
+(\prod_{i=1}^{n} l_{ii} \right ) \left (\prod_{i=1}^{n} u_{ii} \right ) $$
+
+where s is the number of row exchanges in the decomposition.
+
+
+\end{frame}
+
+
 
 \section{Other algorithms for computing determinants}
 
@@ -150,7 +224,7 @@
     Conventional Gaussian elimination requires division, meaning that solutions maybe inexact,
     so precision is lost.
 
-    This is addressed by\dots
+    This is can be addressed by using\dots
 
 \end{frame}
 
@@ -241,7 +315,7 @@
         \includegraphics[height=180]{bird-lu}
     \end{center}
 
-    Bird's runtimes increase noticeable more rapidly than LU decomposition,
+    Bird's runtimes increase noticeably more rapidly than LU decomposition,
     but it's still polynomial.
 
 \end{frame}
