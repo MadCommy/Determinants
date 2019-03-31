@@ -44,10 +44,19 @@
 
 \end{frame}
 
-\subsection{Cramers Rule}
+\subsection{Cramer's Rule}
 
-\begin{frame}{}
-    <++>
+\begin{frame}{Cramer's Rule}
+    \begin{block}{Theorem}
+        Given an equation $A\mathbf{x} = \mathbf{b}$
+        The solutions to $\mathbf{x}$ are given by
+        \[
+            x_i = \frac{\det(A_i)}{\det(A)}
+        \]
+        with $A_i$ being the matrix formed by replacing the $i$th column
+        of $A$ by $\mathbf{b}$.
+    \end{block}
+
 \end{frame}
 
 \subsection{Eigenvalues and Eigenvectors}
@@ -61,7 +70,43 @@
     \end{block}
 \end{frame}
 
-<++>
+\subsection{Volume}
+
+\begin{frame}{Volume}
+    The absolute value of the determinant of real vectors is equal to the volume
+    of the parallelepiped spanned by those vectors.
+
+    $f : \mathbb{R}^n \to \mathbb{R}^n$: the linear map represented by the $A$.
+    $S$: any measurable subset of $\mathbb{R}^n$.
+    \[
+        \text{volume}(f(S)) = \sqrt{\det{({A^T}A)}} \times \text{volume}(S)
+    \]
+    The volume of any tetrahedron, given its vertices $a$, $b$, $c$, and $d$ is
+    \[
+        \frac{\det(a - b, b - c, c - d)}{6}
+    \]
+\end{frame}
+
+\subsection{Jacobian determinant}
+
+\begin{frame}{Jacobian determinant}
+    For $f : \mathbb{R}^n \to \mathbb{R}^n$,
+    the Jacobian matrix is the $n \times n$ matrix whose entries are defined as
+    \[
+        D(f) = {\left( \frac{\delta f_i}{\delta x_j} \right)}_{1 \leq i, j \leq n}
+    \]
+    Its determinant is known as the \emph{Jacobian determinant}.
+
+    \begin{exampleblock}{}
+        If the determinant of a continuously differentiable function $f$ at a point $p$ is\dots
+        \begin{itemize}
+            \item Non-zero, $f$ is invertible near a point $p$ in $\mathbb{R}^n$.
+            \item Positive, then $f$ preserves orientation near $p$.
+            \item Negative, then $f$ reverses orientation near $p$.
+        \end{itemize}
+    \end{exampleblock}
+
+\end{frame}
 
 \section{Using LU decomposition to compute determinants}
 
