@@ -1,15 +1,19 @@
-\beamer@sectionintoc {1}{Using LU decomposition to compute determinants}{3}{0}{1}
-\beamer@subsectionintoc {1}{1}{What is LU decomposition?}{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{Is there always an LU decomposition?}{4}{0}{1}
-\beamer@subsectionintoc {1}{3}{PLU decomposition}{5}{0}{1}
-\beamer@subsectionintoc {1}{4}{How it helps us compute determinants}{6}{0}{1}
-\beamer@subsectionintoc {1}{5}{Runtime analysis}{8}{0}{1}
-\beamer@sectionintoc {2}{Other algorithms for computing determinants}{9}{0}{2}
-\beamer@subsectionintoc {2}{1}{Leibniz formula}{9}{0}{2}
-\beamer@subsectionintoc {2}{2}{Laplace expansion}{10}{0}{2}
-\beamer@subsectionintoc {2}{3}{Gaussian elimination}{13}{0}{2}
-\beamer@subsectionintoc {2}{4}{Bareiss algorithm}{16}{0}{2}
-\beamer@subsectionintoc {2}{5}{Bird's algorithm}{17}{0}{2}
-\beamer@sectionintoc {3}{Epilogue}{20}{0}{3}
-\beamer@subsectionintoc {3}{1}{Summary of determinant algorithms}{20}{0}{3}
-\beamer@subsectionintoc {3}{2}{How fast is Maple's implementation?}{21}{0}{3}
+\beamer@sectionintoc {1}{Why calculate determinants?}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Invertibility of matrices}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Cramers Rule}{4}{0}{1}
+\beamer@subsectionintoc {1}{3}{Eigenvalues and Eigenvectors}{5}{0}{1}
+\beamer@sectionintoc {2}{Using LU decomposition to compute determinants}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{What is LU decomposition?}{6}{0}{2}
+\beamer@subsectionintoc {2}{2}{Is there always an LU decomposition?}{8}{0}{2}
+\beamer@subsectionintoc {2}{3}{PLU decomposition}{9}{0}{2}
+\beamer@subsectionintoc {2}{4}{How it helps us compute determinants}{10}{0}{2}
+\beamer@subsectionintoc {2}{5}{Runtime analysis}{12}{0}{2}
+\beamer@sectionintoc {3}{Other algorithms for computing determinants}{13}{0}{3}
+\beamer@subsectionintoc {3}{1}{Leibniz formula}{13}{0}{3}
+\beamer@subsectionintoc {3}{2}{Laplace expansion}{14}{0}{3}
+\beamer@subsectionintoc {3}{3}{Gaussian elimination}{17}{0}{3}
+\beamer@subsectionintoc {3}{4}{Bareiss algorithm}{20}{0}{3}
+\beamer@subsectionintoc {3}{5}{Bird's algorithm}{21}{0}{3}
+\beamer@sectionintoc {4}{Epilogue}{24}{0}{4}
+\beamer@subsectionintoc {4}{1}{Summary of determinant algorithms}{24}{0}{4}
+\beamer@subsectionintoc {4}{2}{How fast is Maple's implementation?}{25}{0}{4}
