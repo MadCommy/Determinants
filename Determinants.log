@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.3.25)  30 MAR 2019 22:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.3.25)  30 MAR 2019 23:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -776,7 +776,7 @@ File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/mat
 ] [8
 
 ]
-LaTeX Font Info:    Try loading font information for U+euf on input line 235.
+LaTeX Font Info:    Try loading font information for U+euf on input line 234.
  (/usr/share/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 ) [9
@@ -784,12 +784,12 @@ File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 ] [10
 
 ]
-<pics/leibniz-laplace.pdf, id=655, 401.5pt x 401.5pt>
+<pics/leibniz-laplace.pdf, id=643, 401.5pt x 401.5pt>
 
-./Determinants.tex:265: Illegal unit of measure (pt inserted).
+./Determinants.tex:264: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.265 \end{frame}
+l.264 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -798,10 +798,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Determinants.tex:265: Illegal unit of measure (pt inserted).
+./Determinants.tex:264: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.265 \end{frame}
+l.264 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -812,17 +812,17 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: pics/leibniz-laplace.pdf Graphic file (type pdf)
 <use pics/leibniz-laplace.pdf>
-Package pdftex.def Info: pics/leibniz-laplace.pdf  used on input line 265.
+Package pdftex.def Info: pics/leibniz-laplace.pdf  used on input line 264.
 (pdftex.def)             Requested size: 180.00554pt x 180.0pt.
 [11
 
  <./pics/leibniz-laplace.pdf>]
-<pics/laplace-lu.pdf, id=710, 401.5pt x 401.5pt>
+<pics/laplace-lu.pdf, id=697, 401.5pt x 401.5pt>
 
-./Determinants.tex:275: Illegal unit of measure (pt inserted).
+./Determinants.tex:274: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.275 \end{frame}
+l.274 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -831,10 +831,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Determinants.tex:275: Illegal unit of measure (pt inserted).
+./Determinants.tex:274: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.275 \end{frame}
+l.274 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -845,14 +845,14 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: pics/laplace-lu.pdf Graphic file (type pdf)
 <use pics/laplace-lu.pdf>
-Package pdftex.def Info: pics/laplace-lu.pdf  used on input line 275.
+Package pdftex.def Info: pics/laplace-lu.pdf  used on input line 274.
 (pdftex.def)             Requested size: 180.00554pt x 180.0pt.
 [12
 
  <./pics/laplace-lu.pdf>] [13
 
 ]
-<pics/lu-gauss.pdf, id=815, 401.5pt x 401.5pt>
+<pics/lu-gauss.pdf, id=800, 401.5pt x 401.5pt>
 
 ./Determinants.tex:302: Illegal unit of measure (pt inserted).
 <to be read again> 
@@ -892,15 +892,13 @@ Package pdftex.def Info: pics/lu-gauss.pdf  used on input line 302.
 
 ] [18
 
-] [19
-
 ]
-<pics/bird-lu.pdf, id=1114, 401.5pt x 401.5pt>
+<pics/bird-lu.pdf, id=1045, 401.5pt x 401.5pt>
 
-./Determinants.tex:407: Illegal unit of measure (pt inserted).
+./Determinants.tex:409: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.407 \end{frame}
+l.409 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -909,10 +907,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Determinants.tex:407: Illegal unit of measure (pt inserted).
+./Determinants.tex:409: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.407 \end{frame}
+l.409 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -923,19 +921,19 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: pics/bird-lu.pdf Graphic file (type pdf)
 <use pics/bird-lu.pdf>
-Package pdftex.def Info: pics/bird-lu.pdf  used on input line 407.
+Package pdftex.def Info: pics/bird-lu.pdf  used on input line 409.
 (pdftex.def)             Requested size: 180.00554pt x 180.0pt.
-[20
+[19
 
- <./pics/bird-lu.pdf>] [21
+ <./pics/bird-lu.pdf>] [20
 
 ]
-<pics/gauss-maple.pdf, id=1218, 401.5pt x 401.5pt>
+<pics/gauss-maple.pdf, id=1148, 401.5pt x 401.5pt>
 
-./Determinants.tex:442: Illegal unit of measure (pt inserted).
+./Determinants.tex:444: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.442 \end{frame}
+l.444 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -944,10 +942,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Determinants.tex:442: Illegal unit of measure (pt inserted).
+./Determinants.tex:444: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.442 \end{frame}
+l.444 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -958,11 +956,11 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: pics/gauss-maple.pdf Graphic file (type pdf)
 <use pics/gauss-maple.pdf>
-Package pdftex.def Info: pics/gauss-maple.pdf  used on input line 442.
+Package pdftex.def Info: pics/gauss-maple.pdf  used on input line 444.
 (pdftex.def)             Requested size: 180.00554pt x 180.0pt.
-[22
+[21
 
- <./pics/gauss-maple.pdf>] [23
+ <./pics/gauss-maple.pdf>] [22
 
 ]
 \tf@nav=\write6
@@ -974,27 +972,27 @@ Package pdftex.def Info: pics/gauss-maple.pdf  used on input line 442.
 \tf@snm=\write8
 \openout8 = `Determinants.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 452.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 452.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 454.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 454.
  (./Determinants.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 452.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 452.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 454.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 454.
 Package rerunfilecheck Info: File `Determinants.out' has not changed.
-(rerunfilecheck)             Checksum: CE8685B0C5EF1BC475F09284B9A284E5;1085.
+(rerunfilecheck)             Checksum: 45677C2D015716F0F3D514EBAC72A89F;1085.
  ) 
 Here is how much of TeX's memory you used:
- 17859 strings out of 492616
- 337974 string characters out of 6135177
- 437964 words of memory out of 5000000
- 21280 multiletter control sequences out of 15000+600000
+ 17856 strings out of 492616
+ 337968 string characters out of 6135177
+ 437285 words of memory out of 5000000
+ 21279 multiletter control sequences out of 15000+600000
  11760 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,20n,63p,779b,768s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Determinants.pdf (23 pages, 219592 bytes).
+Output written on Determinants.pdf (22 pages, 218117 bytes).
 PDF statistics:
- 1383 PDF objects out of 1440 (max. 8388607)
- 1277 compressed objects within 13 object streams
- 62 named destinations out of 1000 (max. 500000)
+ 1310 PDF objects out of 1440 (max. 8388607)
+ 1206 compressed objects within 13 object streams
+ 60 named destinations out of 1000 (max. 500000)
  248 words of extra memory for PDF output out of 10000 (max. 10000000)
 

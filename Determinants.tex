@@ -49,9 +49,9 @@
 
 \begin{frame}{Is there always an LU decomposition?}
 
-    No.
+    \alert{No.}
 
-    An LU decomposition of $A$ exists if and only if each of its leading principle minors
+    An LU decomposition of $A$ exists if and only if each of its \emph{leading principle minors}
     (contiguous square submatrices in the top-left corner of $A$),
     are also invertible.
 
@@ -68,9 +68,6 @@
     \begin{alertblock}{}
         What can we do?
     \end{alertblock}
-
-    % TODO: give more distinction between LU and PLU factorization
-    % Jumped into PLU without defining what it is and how it is distinct from LU
 
     % \textbf{Cases when the LU factorization exists}
     % \begin{itemize}
@@ -148,7 +145,7 @@
         A &= P^{-1}LU \\
           &= P^T LU
     \end{align*}
-    since $P^{-1} = P^T$ by definition of an orthogonal matrix.
+    since $P^{-1} = P^T$ by the definition of orthogonal matrices.
 
 \end{frame}
 
@@ -194,7 +191,9 @@
         \mathcal{O}(n^3) + \mathcal{O}(n^2) + \mathcal{O}(n) = \mathcal{O}(n^3)
     \]
 
-    What are some other methods to compute determinants?
+    \begin{exampleblock}{}
+        What are some other methods to compute determinants?
+    \end{exampleblock}
 
 \end{frame}
 
@@ -299,19 +298,22 @@
     \end{center}
 
     The difference in runtimes is small (a constant factor).
+
 \end{frame}
 
 \begin{frame}{Gaussian elimination (cont.)}
 
-    Conventional Gaussian elimination requires division, meaning that solutions maybe inexact,
-    so precision is lost.
+
+    Conventional Gaussian elimination requires division.
+    This has two problems:
+    \begin{itemize}
+        \item Over $\mathbb{M}(n; \mathbb{R})$ solutions maybe inexact, so precision is lost.
+        \item Division is not a ring operation,
+            so would not necessarily work on matrices over a ring.
+    \end{itemize}
 
     This is can be addressed by using\dots
 
-\end{frame}
-
-\begin{frame}{Gaussian elimination algorithm}
-    % TODO: possibly give an algorithm?
 \end{frame}
 
 \subsection{Bareiss algorithm}
@@ -415,7 +417,7 @@
     \begin{center}
         \begin{tabular}{l l l}
             \toprule
-            \emph{Algorithm}     & \emph{Runtime}           & \emph{Exact} \\
+            \emph{Algorithm}     & \emph{Runtime}           & \emph{Exact?} \\
             \midrule
             Leibniz formula      & $\mathcal{O}((n+1)!)$    & Yes \\
             Laplace expansion    & $\mathcal{O}(n!)$        & Yes \\

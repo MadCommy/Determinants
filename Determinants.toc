@@ -8,8 +8,8 @@
 \beamer@subsectionintoc {2}{1}{Leibniz formula}{9}{0}{2}
 \beamer@subsectionintoc {2}{2}{Laplace expansion}{10}{0}{2}
 \beamer@subsectionintoc {2}{3}{Gaussian elimination}{13}{0}{2}
-\beamer@subsectionintoc {2}{4}{Bareiss algorithm}{17}{0}{2}
-\beamer@subsectionintoc {2}{5}{Bird's algorithm}{18}{0}{2}
-\beamer@sectionintoc {3}{Epilogue}{21}{0}{3}
-\beamer@subsectionintoc {3}{1}{Summary of determinant algorithms}{21}{0}{3}
-\beamer@subsectionintoc {3}{2}{How fast is Maple's implementation?}{22}{0}{3}
+\beamer@subsectionintoc {2}{4}{Bareiss algorithm}{16}{0}{2}
+\beamer@subsectionintoc {2}{5}{Bird's algorithm}{17}{0}{2}
+\beamer@sectionintoc {3}{Epilogue}{20}{0}{3}
+\beamer@subsectionintoc {3}{1}{Summary of determinant algorithms}{20}{0}{3}
+\beamer@subsectionintoc {3}{2}{How fast is Maple's implementation?}{21}{0}{3}

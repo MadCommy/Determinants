@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1553985345 "Determinants.tex" "Determinants.pdf" "Determinants" 1553985345
+["pdflatex"] 1553987794 "Determinants.tex" "Determinants.pdf" "Determinants" 1553987794
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1550406775 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1550406775 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1550406775 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -196,11 +196,11 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1550406775 33301 a3134070eacafb10b1f371612ce2650d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1553534879 3106252 d5255ed7fd6ec6ea7699581e9a54cb46 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1553534860 7919196 ac377fdb7a17b90b13c698ae3d73209f ""
-  "Determinants.aux" 1553985338 8322 6f215db8de5adf31377a1839ab972203 ""
-  "Determinants.nav" 1553985338 4879 358bbc6d8586475996bfaefabb7cf592 ""
-  "Determinants.out" 1553985338 1085 ce8685b0c5ef1bc475f09284b9a284e5 ""
-  "Determinants.tex" 1553985343 13067 3d077c146ae6d03c639f9d2057649144 ""
-  "Determinants.toc" 1553985338 999 ebf10489bbe8a0471e13c7eb7a3c1a5a ""
+  "Determinants.aux" 1553987786 8174 d995a39634cceec172e923757070cd4a ""
+  "Determinants.nav" 1553987786 4767 f328a4e9407dc08e464068dfbfaa8dc7 ""
+  "Determinants.out" 1553987786 1085 45677c2d015716f0f3d514ebac72a89f ""
+  "Determinants.tex" 1553987793 13104 2a804efacdee8f38dd199ccc29e39db5 ""
+  "Determinants.toc" 1553987786 999 c8078b19b1a827b074ee844af1f9a4c3 ""
   "pics/bird-lu.pdf" 1553898825 14193 fe7c02ec43fbcf4c7fc0e502ea4b89f1 ""
   "pics/gauss-maple.pdf" 1553898807 15435 437bf368222418f3cc37b507dbbfc846 ""
   "pics/laplace-lu.pdf" 1553976193 10812 1024b3e491763cc9e0a33f293820e3d3 ""
