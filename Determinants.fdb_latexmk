@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1554031682 "Determinants.tex" "Determinants.pdf" "Determinants" 1554031682
+["pdflatex"] 1554031739 "Determinants.tex" "Determinants.pdf" "Determinants" 1554031739
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1550406775 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1550406775 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1550406775 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -198,11 +198,11 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1550406775 33301 a3134070eacafb10b1f371612ce2650d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1553534879 3106252 d5255ed7fd6ec6ea7699581e9a54cb46 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1553534860 7919196 ac377fdb7a17b90b13c698ae3d73209f ""
-  "Determinants.aux" 1554031672 9684 509dbb90a8c3d43e4f621079136c9fd9 ""
-  "Determinants.nav" 1554031672 5677 3c8796f9ebffd9ae4fa0843882a3021f ""
-  "Determinants.out" 1554031672 1366 8d0522aa899690a0d511ee36b41770e9 ""
-  "Determinants.tex" 1554031681 13791 e3c96a184284904d2e634019f08aac52 ""
-  "Determinants.toc" 1554031672 1257 dd9448cdaa7a34a4ad0600df28c23a4e ""
+  "Determinants.aux" 1554031731 10123 1a91754b34ace52e70873e043a013c0c ""
+  "Determinants.nav" 1554031731 5946 efaccfec5e44c9f02f3c62e09f44b790 ""
+  "Determinants.out" 1554031731 1454 d60984c68e1508510c3a6ce911fbddd4 ""
+  "Determinants.tex" 1554031735 13969 caaa7ab719b35ce5e1fccecf0c5e528a ""
+  "Determinants.toc" 1554031731 1337 4ecd87e17622bd713b1e40ab849f4dbb ""
   "pics/bird-lu.pdf" 1553898825 14193 fe7c02ec43fbcf4c7fc0e502ea4b89f1 ""
   "pics/gauss-maple.pdf" 1553898807 15435 437bf368222418f3cc37b507dbbfc846 ""
   "pics/laplace-lu.pdf" 1553976193 10812 1024b3e491763cc9e0a33f293820e3d3 ""
@@ -210,9 +210,9 @@
   "pics/lu-gauss.pdf" 1553902334 15456 c0d6997bcebe495f2bf7670b6eaa70d8 ""
   (generated)
   "Determinants.pdf"
-  "Determinants.log"
-  "Determinants.toc"
-  "Determinants.snm"
-  "Determinants.nav"
   "Determinants.out"
   "Determinants.aux"
+  "Determinants.log"
+  "Determinants.nav"
+  "Determinants.toc"
+  "Determinants.snm"
