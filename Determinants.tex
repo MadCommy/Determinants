@@ -27,7 +27,7 @@
     \maketitle
 \end{frame}
 
-\begin{frame}{Overview}
+\begin{frame}[allowframebreaks]{Overview}
     \tableofcontents
 \end{frame}
 
@@ -35,6 +35,7 @@
 
 \subsection{Invertibility of matrices}
 \begin{frame}{Invertbililty of matrices}
+
     \begin{block}{Theorem}
         An $n \times n$ square matrix $A$ is invertible if and only if
         \[
@@ -47,6 +48,7 @@
 \subsection{Cramer's Rule}
 
 \begin{frame}{Cramer's Rule}
+
     \begin{block}{Theorem}
         Given an equation $A\mathbf{x} = \mathbf{b}$
         The solutions to $\mathbf{x}$ are given by
@@ -56,6 +58,9 @@
         with $A_i$ being the matrix formed by replacing the $i$th column
         of $A$ by $\mathbf{b}$.
     \end{block}
+
+    It turns out this method has the same runtime complexity as Gaussian elimination for solving
+    systems of linear equations.
 
 \end{frame}
 
@@ -73,6 +78,7 @@
 \subsection{Volume}
 
 \begin{frame}{Volume}
+
     The absolute value of the determinant of real vectors is equal to the volume
     of the parallelepiped spanned by those vectors.
 
@@ -90,6 +96,7 @@
 \subsection{Jacobian determinant}
 
 \begin{frame}{Jacobian determinant}
+
     For $f : \mathbb{R}^n \to \mathbb{R}^n$,
     the Jacobian matrix is the $n \times n$ matrix whose entries are defined as
     \[
@@ -108,11 +115,12 @@
 
 \end{frame}
 
-\section{Using LU decomposition to compute determinants}
+\section{LU decomposition}
 
 \subsection{What is LU decomposition?}
 
 \begin{frame}{What is LU decomposition?}
+
     \begin{block}{Definition}
         An LU decomposition of an invertible matrix $A$ is a factorization
         \[
@@ -120,6 +128,7 @@
         \]
         where $L$ and $U$ are lower and upper triangular matrices, respectively.
     \end{block}
+
 \end{frame}
 
 \subsection{Is there always an LU decomposition?}
@@ -257,7 +266,7 @@
 \subsection{How do we find the PLU decomposition?}
 
 \begin{frame}{How do we find the PLU decomposition?}
-\begin{itemize}
+    \begin{itemize}
         \item ASDFGHJK
     \end{itemize}
 
@@ -285,24 +294,7 @@
 
 \end{frame}
 
-% \begin{frame}{How it helps us compute determinants (cont.)}
-
-%     Finally we have
-
-%     \begin{block}{}
-%         \[
-%             % \det(A) = {(-1)}^s \left( \prod_{i=1}^{n} l_{i,i} \right)
-%             \det(A) = \text{sgn}(\sigma_P) \cdot \left( \prod_{i=1}^{n} l_{i,i} \right)
-%             \left( \prod_{i=1}^{n} u_{i,i} \right)
-%         \]
-%     \end{block}
-
-%     with $s$ being the number of row exchanges in the decomposition,
-%     which is the parity of the permutation represented by $P$.
-
-% \end{frame}
-
-\section{Other algorithms for computing determinants}
+\section{Algorithms for computing determinants}
 
 \subsection{Leibniz formula}
 
