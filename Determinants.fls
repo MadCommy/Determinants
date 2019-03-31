@@ -331,9 +331,9 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/euler/eufm7.tfm
 INPUT pics/leibniz-laplace.pdf
 INPUT ./pics/leibniz-laplace.pdf
 INPUT ./pics/leibniz-laplace.pdf
-INPUT PLUcode.png
-INPUT ./PLUcode.png
-INPUT ./PLUcode.png
+INPUT pics/PLUcode.png
+INPUT ./pics/PLUcode.png
+INPUT ./pics/PLUcode.png
 INPUT pics/laplace-lu.pdf
 INPUT ./pics/laplace-lu.pdf
 INPUT ./pics/laplace-lu.pdf
