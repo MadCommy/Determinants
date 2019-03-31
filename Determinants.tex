@@ -51,7 +51,7 @@
 
     \begin{block}{Theorem}
         Given an equation $A\mathbf{x} = \mathbf{b}$
-        The solutions to $\mathbf{x}$ are given by
+        The solutions for $\mathbf{x}$ are given by
         \[
             x_i = \frac{\det(A_i)}{\det(A)}
         \]
@@ -67,15 +67,25 @@
 \subsection{Eigenvalues and Eigenvectors}
 
 \begin{frame}{Eigenvalues and Eigenvectors}
+
     \begin{block}{Definition}
-        The Eigenvalues of a matrix $A$ are the roots of the characteristic polynomial as defined
+        The Eigenvalues $\lambda$ of a matrix $A$ are the roots of the characteristic polynomial
+        as defined
         \[
-            \chi_A = \det(A - \lambda I) = \textbf{0}
+            \chi_A = \det(A - \lambda I) = \mathbf{0}
         \]
     \end{block}
+
+    \begin{block}{Definition}
+        The Eigenvectors of $A$ are the vectors $\mathbf{v}$ such that
+        \[
+            A\mathbf{v} = \lambda \mathbf{v}
+        \]
+    \end{block}
+
 \end{frame}
 
-\subsection{Volume}
+\subsection{Eigenvectors & Eigenvalues cont.}
 
 \begin{frame}{Volume}
 
@@ -100,7 +110,7 @@
     For $f : \mathbb{R}^n \to \mathbb{R}^n$,
     the Jacobian matrix is the $n \times n$ matrix whose entries are defined as
     \[
-        D(f) = {\left( \frac{\delta f_i}{\delta x_j} \right)}_{1 \leq i, j \leq n}
+        D(f) = {\left( \frac{\partial f_i}{\partial x_j} \right)}_{1 \leq i, j \leq n}
     \]
     Its determinant is known as the \emph{Jacobian determinant}.
 

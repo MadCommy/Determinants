@@ -2,7 +2,7 @@
 \beamer@subsectionintoc {1}{1}{Invertibility of matrices}{3}{0}{1}
 \beamer@subsectionintoc {1}{2}{Cramer's Rule}{4}{0}{1}
 \beamer@subsectionintoc {1}{3}{Eigenvalues and Eigenvectors}{5}{0}{1}
-\beamer@subsectionintoc {1}{4}{Volume}{6}{0}{1}
+\beamer@subsectionintoc {1}{4}{Eigenvectors & Eigenvalues cont.}{6}{0}{1}
 \beamer@subsectionintoc {1}{5}{Jacobian determinant}{7}{0}{1}
 \beamer@sectionintoc {2}{Algorithms for computing determinants}{8}{0}{2}
 \beamer@subsectionintoc {2}{1}{Leibniz formula}{8}{0}{2}
