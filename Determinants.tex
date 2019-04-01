@@ -276,8 +276,8 @@
     it follows that
     \begin{block}{}
         \[
-            \det(A) = \text{sgn}(\sigma_P) \cdot \left( \prod_{i=1}^{n} l_{i,i} \right)
-            \left( \prod_{i=1}^{n} u_{i,i} \right).
+            \det(A) = \text{sgn}(\sigma_P) \cdot \left( \prod_{i=1}^{n} l_{i,i} \right) \cdot
+            \left( \prod_{i=1}^{n} u_{i,i} \right)
         \]
     \end{block}
 
@@ -437,6 +437,38 @@
                 
             \end{pmatrix}
             \]
+
+\end{frame}
+
+\begin{frame}{How do we find the PLU decomposition? (cont.)}
+So we have
+
+            \[L=\begin{pmatrix}{}
+                1 & 0 & 0 \\
+                \frac{1}{2} & 1 & 0 \\
+                \frac{1}{4} & \frac{3}{2} & 1
+            \end{pmatrix}, U=\begin{pmatrix}{}
+                8 & 7 & 9 \\
+                0 & -\frac{1}{2} & -\frac{3}{2} \\
+                0 & 0 & 1
+            \end{pmatrix} \text{and sgn} (\sigma_P)=-1.\]
+            Thus we have
+            
+            \[
+            \text{det}(A)=
+            \text{det}\begin{pmatrix}{}
+                2 & 1 & 1 \\
+                4 & 3 & 3 \\
+                8 & 7 & 9
+            \end{pmatrix}=\text{sgn}(\sigma_P) \cdot \left( \prod_{i=1}^{n} l_{i,i} \right) \cdot
+            \left( \prod_{i=1}^{n} u_{i,i} \right)
+            
+            \]
+            \[
+            =-1\cdot8\cdot-\frac{1}{2}=4.
+            \]
+
+            
 
 \end{frame}
 
