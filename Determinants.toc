@@ -2,14 +2,14 @@
 \beamer@subsectionintoc {1}{1}{Invertibility of matrices}{3}{0}{1}
 \beamer@subsectionintoc {1}{2}{Cramer's Rule}{4}{0}{1}
 \beamer@subsectionintoc {1}{3}{Eigenvalues and Eigenvectors}{5}{0}{1}
-\beamer@subsectionintoc {1}{4}{Jacobian determinant}{7}{0}{1}
-\beamer@sectionintoc {2}{Algorithms for computing determinants}{8}{0}{2}
-\beamer@subsectionintoc {2}{1}{Leibniz formula}{8}{0}{2}
-\beamer@subsectionintoc {2}{2}{Laplace expansion}{10}{0}{2}
-\beamer@subsectionintoc {2}{3}{LU decomposition}{14}{0}{2}
-\beamer@subsectionintoc {2}{4}{Gaussian elimination}{38}{0}{2}
-\beamer@subsectionintoc {2}{5}{Bareiss algorithm}{43}{0}{2}
-\beamer@subsectionintoc {2}{6}{Bird's algorithm}{45}{0}{2}
-\beamer@sectionintoc {3}{Epilogue}{50}{0}{3}
-\beamer@subsectionintoc {3}{1}{Summary of determinant algorithms}{50}{0}{3}
-\beamer@subsectionintoc {3}{2}{How fast is Maple's implementation?}{51}{0}{3}
+\beamer@subsectionintoc {1}{4}{Jacobian determinant}{8}{0}{1}
+\beamer@sectionintoc {2}{Algorithms for computing determinants}{9}{0}{2}
+\beamer@subsectionintoc {2}{1}{Leibniz formula}{10}{0}{2}
+\beamer@subsectionintoc {2}{2}{Laplace expansion}{12}{0}{2}
+\beamer@subsectionintoc {2}{3}{LU decomposition}{16}{0}{2}
+\beamer@subsectionintoc {2}{4}{Gaussian elimination}{40}{0}{2}
+\beamer@subsectionintoc {2}{5}{Bareiss algorithm}{45}{0}{2}
+\beamer@subsectionintoc {2}{6}{Bird's algorithm}{47}{0}{2}
+\beamer@sectionintoc {3}{Epilogue}{52}{0}{3}
+\beamer@subsectionintoc {3}{1}{Summary of determinant algorithms}{52}{0}{3}
+\beamer@subsectionintoc {3}{2}{How fast is Maple's implementation?}{53}{0}{3}

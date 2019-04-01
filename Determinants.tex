@@ -78,7 +78,7 @@
         \]
     \end{block}
 
-    % \pause{}
+    \pause{}
 
     \begin{block}{Definition}
         The Eigenvectors of $A$ are the vectors $\mathbf{v}$ such that
@@ -97,12 +97,13 @@
     $f : \mathbb{R}^n \to \mathbb{R}^n$: the linear map represented by the $A$.
     $S$: any measurable subset of $\mathbb{R}^n$.
     \[
-        \text{volume}(f(S)) = \sqrt{\det{({A^T}A)}} \times \text{volume}(S).
+        \text{volume}(f(S)) = |\det{({A^T}A)}| \times \text{volume}(S).
     \]
-    The volume of any tetrahedron, given its vertices $a$, $b$, $c$, and $d$ is
-    \[
-        \frac{\det(a - b, b - c, c - d)}{6}.
-    \]
+
+    % The volume of any tetrahedron, given its vertices $a$, $b$, $c$, and $d$ is
+    % \[
+    %     \frac{\det(a - b, b - c, c - d)}{6}.
+    % \]
 
 \end{frame}
 
@@ -131,6 +132,19 @@
 \end{frame}
 
 \section{Algorithms for computing determinants}
+
+\begin{frame}{Big-O notation}
+    We'll be looking at the runtime of algorithms, so this is useful.
+
+    \begin{block}{Definition}
+        A function $f$ is defined to be $\mathcal{O}(g)$, with $g$ a function iff
+        \[
+            \exists k \in \mathbb{R} \backepsilon f(n) < k \cdot g(n)
+        \]
+        for sufficiently large $n$.
+    \end{block}
+    
+\end{frame}
 
 \subsection{Leibniz formula}
 
@@ -212,7 +226,7 @@
 
     \begin{exampleblock}{Example}
         \[
-           A= \begin{pmatrix}{}
+            A= \begin{pmatrix}{}
                 0 & 1 \\
                 1 & 0
             \end{pmatrix}
@@ -296,185 +310,184 @@
 \end{frame}
 
 \begin{frame}{How do we find the PLU decomposition? (cont.)}
-\[A=
-\begin{pmatrix}{}
-                2 & 1 & 1 \\
-                4 & 3 & 3 \\
-                8 & 7 & 9
-            \end{pmatrix}
-            \]
-            \pause
-            
-            \[
-  \begin{pmatrix}{}
-                1 & 0 & 0 \\
-                0 & 1 & 0 \\
-                0 & 0 & 1
+    \[A=
+        \begin{pmatrix}{}
+            2 & 1 & 1 \\
+            4 & 3 & 3 \\
+            8 & 7 & 9
+        \end{pmatrix}
+    \]
+    \pause
+
+    \[
+        \begin{pmatrix}{}
+            1 & 0 & 0 \\
+            0 & 1 & 0 \\
+            0 & 0 & 1
             \end{pmatrix}\begin{pmatrix}{}
-                2 & 1 & 1 \\
-                4 & 3 & 3 \\
-                8 & 7 & 9
-            \end{pmatrix}
-            =\begin{pmatrix}{}
-                1 & 0 & 0 \\
-                0 & 1 & 0 \\
-                0 & 0 & 1
-            \end{pmatrix}
-            \begin{pmatrix}{}
-                2 & 1 & 1 \\
-                4 & 3 & 3 \\
-                8 & 7 & 9
-            \end{pmatrix}
-            \]
-            
-            \pause
-            \[
-  \begin{pmatrix}{}
-                0 & 0 & 1 \\
-                0 & 1 & 0 \\
-                1 & 0 & 0
+            2 & 1 & 1 \\
+            4 & 3 & 3 \\
+            8 & 7 & 9
+        \end{pmatrix}
+        =\begin{pmatrix}{}
+            1 & 0 & 0 \\
+            0 & 1 & 0 \\
+            0 & 0 & 1
+        \end{pmatrix}
+        \begin{pmatrix}{}
+            2 & 1 & 1 \\
+            4 & 3 & 3 \\
+            8 & 7 & 9
+        \end{pmatrix}
+    \]
+
+    \pause
+    \[
+        \begin{pmatrix}{}
+            0 & 0 & 1 \\
+            0 & 1 & 0 \\
+            1 & 0 & 0
             \end{pmatrix}\begin{pmatrix}{}
-                2 & 1 & 1 \\
-                4 & 3 & 3 \\
-                8 & 7 & 9
-            \end{pmatrix}
-            =\begin{pmatrix}{}
-                1 & 0 & 0 \\
-                0 & 1 & 0 \\
-                0 & 0 & 1
-            \end{pmatrix}
-            \begin{pmatrix}{}
-                8 & 7 & 9 \\
-                4 & 3 & 3 \\
-                2 & 1 & 1
-            \end{pmatrix}
-            \]
-            \pause
-            \[
-  \begin{pmatrix}{}
-                0 & 0 & 1 \\
-                0 & 1 & 0 \\
-                1 & 0 & 0
+            2 & 1 & 1 \\
+            4 & 3 & 3 \\
+            8 & 7 & 9
+        \end{pmatrix}
+        =\begin{pmatrix}{}
+            1 & 0 & 0 \\
+            0 & 1 & 0 \\
+            0 & 0 & 1
+        \end{pmatrix}
+        \begin{pmatrix}{}
+            8 & 7 & 9 \\
+            4 & 3 & 3 \\
+            2 & 1 & 1
+        \end{pmatrix}
+    \]
+    \pause
+    \[
+        \begin{pmatrix}{}
+            0 & 0 & 1 \\
+            0 & 1 & 0 \\
+            1 & 0 & 0
             \end{pmatrix}\begin{pmatrix}{}
-                2 & 1 & 1 \\
-                4 & 3 & 3 \\
-                8 & 7 & 9
-            \end{pmatrix}
-            =\begin{pmatrix}{}
-                1 & 0 & 0 \\
-                \frac{1}{2} & 1 & 0 \\
-                0 & 0 & 1
-            \end{pmatrix}
-            \begin{pmatrix}{}
-                8 & 7 & 9 \\
-                0 & -\frac{1}{2} & -\frac{3}{2} \\
-                2 & 1 & 1
-            \end{pmatrix}
-            \]
-            \pause
+            2 & 1 & 1 \\
+            4 & 3 & 3 \\
+            8 & 7 & 9
+        \end{pmatrix}
+        =\begin{pmatrix}{}
+            1 & 0 & 0 \\
+            \frac{1}{2} & 1 & 0 \\
+            0 & 0 & 1
+        \end{pmatrix}
+        \begin{pmatrix}{}
+            8 & 7 & 9 \\
+            0 & -\frac{1}{2} & -\frac{3}{2} \\
+            2 & 1 & 1
+        \end{pmatrix}
+    \]
 
 \end{frame}
 
 \begin{frame}{How do we find the PLU decomposition? (cont.)}
 
-            \[
-  \begin{pmatrix}{}
-                0 & 0 & 1 \\
-                0 & 1 & 0 \\
-                1 & 0 & 0
+    \[
+        \begin{pmatrix}{}
+            0 & 0 & 1 \\
+            0 & 1 & 0 \\
+            1 & 0 & 0
             \end{pmatrix}\begin{pmatrix}{}
-                2 & 1 & 1 \\
-                4 & 3 & 3 \\
-                8 & 7 & 9
-            \end{pmatrix}
-            =\begin{pmatrix}{}
-                1 & 0 & 0 \\
-                \frac{1}{2} & 1 & 0 \\
-                0 & 0 & 1
-            \end{pmatrix}
-            \begin{pmatrix}{}
-                8 & 7 & 9 \\
-                0 & -\frac{1}{2} & -\frac{3}{2} \\
-                2 & 1 & 1
+            2 & 1 & 1 \\
+            4 & 3 & 3 \\
+            8 & 7 & 9
+        \end{pmatrix}
+        =\begin{pmatrix}{}
+            1 & 0 & 0 \\
+            \frac{1}{2} & 1 & 0 \\
+            0 & 0 & 1
+        \end{pmatrix}
+        \begin{pmatrix}{}
+            8 & 7 & 9 \\
+            0 & -\frac{1}{2} & -\frac{3}{2} \\
+            2 & 1 & 1
 
-            \end{pmatrix}
-            \]
-            \pause
- \[
-  \begin{pmatrix}{}
-                0 & 0 & 1 \\
-                0 & 1 & 0 \\
-                1 & 0 & 0
+        \end{pmatrix}
+    \]
+    \pause
+    \[
+        \begin{pmatrix}{}
+            0 & 0 & 1 \\
+            0 & 1 & 0 \\
+            1 & 0 & 0
             \end{pmatrix}\begin{pmatrix}{}
-                2 & 1 & 1 \\
-                4 & 3 & 3 \\
-                8 & 7 & 9
-            \end{pmatrix}
-            =\begin{pmatrix}{}
-                1 & 0 & 0 \\
-                \frac{1}{2} & 1 & 0 \\
-                \frac{1}{4} & 0 & 1
-            \end{pmatrix}
-            \begin{pmatrix}{}
-                8 & 7 & 9 \\
-                0 & -\frac{1}{2} & -\frac{3}{2} \\
-                0 & -\frac{3}{4} & -\frac{5}{4}
+            2 & 1 & 1 \\
+            4 & 3 & 3 \\
+            8 & 7 & 9
+        \end{pmatrix}
+        =\begin{pmatrix}{}
+            1 & 0 & 0 \\
+            \frac{1}{2} & 1 & 0 \\
+            \frac{1}{4} & 0 & 1
+        \end{pmatrix}
+        \begin{pmatrix}{}
+            8 & 7 & 9 \\
+            0 & -\frac{1}{2} & -\frac{3}{2} \\
+            0 & -\frac{3}{4} & -\frac{5}{4}
 
-            \end{pmatrix}
-            \]
-            \pause
-            \[
-  \begin{pmatrix}{}
-                0 & 0 & 1 \\
-                0 & 1 & 0 \\
-                1 & 0 & 0
+        \end{pmatrix}
+    \]
+    \pause
+    \[
+        \begin{pmatrix}{}
+            0 & 0 & 1 \\
+            0 & 1 & 0 \\
+            1 & 0 & 0
             \end{pmatrix}\begin{pmatrix}{}
-                2 & 1 & 1 \\
-                4 & 3 & 3 \\
-                8 & 7 & 9
-            \end{pmatrix}
-            =\begin{pmatrix}{}
-                1 & 0 & 0 \\
-                \frac{1}{2} & 1 & 0 \\
-                \frac{1}{4} & \frac{3}{2} & 1
-            \end{pmatrix}
-            \begin{pmatrix}{}
-                8 & 7 & 9 \\
-                0 & -\frac{1}{2} & -\frac{3}{2} \\
-                0 & 0 & 1
+            2 & 1 & 1 \\
+            4 & 3 & 3 \\
+            8 & 7 & 9
+        \end{pmatrix}
+        =\begin{pmatrix}{}
+            1 & 0 & 0 \\
+            \frac{1}{2} & 1 & 0 \\
+            \frac{1}{4} & \frac{3}{2} & 1
+        \end{pmatrix}
+        \begin{pmatrix}{}
+            8 & 7 & 9 \\
+            0 & -\frac{1}{2} & -\frac{3}{2} \\
+            0 & 0 & 1
 
-            \end{pmatrix}
-            \]
+        \end{pmatrix}
+    \]
 
 \end{frame}
 
 \begin{frame}{How do we find the PLU decomposition? (cont.)}
-So we have
+    So we have
 
-            \[L=\begin{pmatrix}{}
-                1 & 0 & 0 \\
-                \frac{1}{2} & 1 & 0 \\
-                \frac{1}{4} & \frac{3}{2} & 1
+    \[L=\begin{pmatrix}{}
+            1 & 0 & 0 \\
+            \frac{1}{2} & 1 & 0 \\
+            \frac{1}{4} & \frac{3}{2} & 1
             \end{pmatrix}, U=\begin{pmatrix}{}
-                8 & 7 & 9 \\
-                0 & -\frac{1}{2} & -\frac{3}{2} \\
-                0 & 0 & 1
-            \end{pmatrix} \text{and sgn} (\sigma_P)=-1.\]
-            \pause
-            Thus we have
+            8 & 7 & 9 \\
+            0 & -\frac{1}{2} & -\frac{3}{2} \\
+            0 & 0 & 1
+    \end{pmatrix} \text{and sgn} (\sigma_P)=-1.\]
+    \pause
+    Thus we have
 
-            \[
-            \text{det}(A)=
-            \text{det}\begin{pmatrix}{}
-                2 & 1 & 1 \\
-                4 & 3 & 3 \\
-                8 & 7 & 9
-            \end{pmatrix}=\text{sgn}(\sigma_P) \cdot \left( \prod_{i=1}^{n} l_{i,i} \right) \cdot
-            \left( \prod_{i=1}^{n} u_{i,i} \right)
-            \]
-            \[
-            =-1\cdot8\cdot-\frac{1}{2}=4.
-            \]
+    \[
+        \text{det}(A)=
+        \text{det}\begin{pmatrix}{}
+            2 & 1 & 1 \\
+            4 & 3 & 3 \\
+            8 & 7 & 9
+        \end{pmatrix}=\text{sgn}(\sigma_P) \cdot \left( \prod_{i=1}^{n} l_{i,i} \right) \cdot
+        \left( \prod_{i=1}^{n} u_{i,i} \right)
+    \]
+    \[
+        =-1\cdot8\cdot-\frac{1}{2}=4.
+    \]
 
 \end{frame}
 
@@ -512,13 +525,13 @@ So we have
 
     \begin{itemize}
         \pause{}
-        \item Division is not a ring operation, so it won't work on matrices over rings.
+    \item Division is not a ring operation, so it won't work on matrices over rings.
         \pause{}
-        \item Unless we compute exactly (difficult on a computer), precision may be lost.
-    \end{itemize}
+    \item Unless we compute exactly (difficult on a computer), precision may be lost.
+\end{itemize}
 
-    \pause{}
-    Let's try something else\dots
+\pause{}
+Let's try something else\dots
 
 \end{frame}
 
