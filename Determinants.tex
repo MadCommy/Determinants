@@ -95,7 +95,7 @@
     $f : \mathbb{R}^n \to \mathbb{R}^n$: the linear map represented by the $A$.
     $S$: any measurable subset of $\mathbb{R}^n$.
     \[
-        \text{volume}(f(S)) = \sqrt{\det{({A^T}A)}} \times \text{volume}(S)
+        \text{volume}(f(S)) = \sqrt{\det{({A^T}A)}} \times \text{volume}(S).
     \]
     The volume of any tetrahedron, given its vertices $a$, $b$, $c$, and $d$ is
     \[
@@ -110,7 +110,7 @@
     For $f : \mathbb{R}^n \to \mathbb{R}^n$,
     the Jacobian matrix is the $n \times n$ matrix whose entries are defined as
     \[
-        D(f) = {\left( \frac{\partial f_i}{\partial x_j} \right)}_{1 \leq i, j \leq n}
+        D(f) = {\left( \frac{\partial f_i}{\partial x_j} \right)}_{1 \leq i, j \leq n.}
     \]
     Its determinant is known as the \emph{Jacobian determinant}.
 
@@ -273,6 +273,32 @@
 
 \end{frame}
 
+\begin{frame}{How do we find the PLU decomposition? (cont.)}
+\[
+            \begin{pmatrix}{}
+                0 & 1 \\
+                1 & 0
+            \end{pmatrix}
+        \]\[
+            \begin{pmatrix}{}
+                0 & 1 \\
+                1 & 0
+            \end{pmatrix}
+        \]\[
+            \begin{pmatrix}{}
+                0 & 1 \\
+                1 & 0
+            \end{pmatrix}
+        \]\[
+            \begin{pmatrix}{}
+                0 & 1 \\
+                1 & 0
+            \end{pmatrix}
+        \]
+    
+
+\end{frame}
+
 \begin{frame}{Runtime analysis}
     How quick is it?
     \begin{itemize}
@@ -283,7 +309,7 @@
 
     Therefore the total runtime for computing the determinant using the method is
     \[
-        \mathcal{O}(n^3) + \mathcal{O}(n^2) + \mathcal{O}(n) = \mathcal{O}(n^3)
+        \mathcal{O}(n^3) + \mathcal{O}(n^2) + \mathcal{O}(n) = \mathcal{O}(n^3).
     \]
 
     \begin{exampleblock}{}
