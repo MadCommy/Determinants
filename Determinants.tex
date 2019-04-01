@@ -230,21 +230,21 @@
                 0 & 1 \\
                 1 & 0
             \end{pmatrix} 
-            
-              = \begin{pmatrix}{}
+
+            = \begin{pmatrix}{}
                 \alert{a_{1,1}} & a_{1,2} \\
                 a_{2,1} & a_{2,2}
             \end{pmatrix}
-              = \begin{pmatrix}{}
-                    \alert{l_{1,1}} & 0 \\
-                    l_{2,1} & l_{2,2}
-                \end{pmatrix}
-                \begin{pmatrix}{}
-                    \alert{u_{1,1}} & u_{1,2} \\
-                    0 & u_{2,2}
-                \end{pmatrix}
+            = \begin{pmatrix}{}
+                \alert{l_{1,1}} & 0 \\
+                l_{2,1} & l_{2,2}
+            \end{pmatrix}
+            \begin{pmatrix}{}
+                \alert{u_{1,1}} & u_{1,2} \\
+                0 & u_{2,2}
+            \end{pmatrix}
         \]
-        
+
         Here we have $a_{1,1} = l_{1,1}u_{1,1} = 0.$
         \bigbreak
         This matrix is invertible but has no LU decomposition.
@@ -252,9 +252,9 @@
 
     \pause{}
 
-    \begin{alertblock}{}
-        What can we do?
-    \end{alertblock}
+    % \begin{alertblock}{}
+    %     What can we do?
+    % \end{alertblock}
 
 \end{frame}
 
@@ -344,15 +344,15 @@
             0 & 0 & 1
             \end{pmatrix}\begin{pmatrix}{}
             2 & 1 \\
-                -4 & 3 \\
+            -4 & 3 \\
         \end{pmatrix}
         =\begin{pmatrix}{}
             1 & 0 \\
-                0 & 1 \\
+            0 & 1 \\
         \end{pmatrix}
         \begin{pmatrix}{}
             2 & 1 \\
-                -4 & 3 \\
+            -4 & 3 \\
         \end{pmatrix}
     \]
 
@@ -360,18 +360,18 @@
     \[
         \begin{pmatrix}{}
             0 & 1 \\
-                1 & 0 \\
+            1 & 0 \\
             \end{pmatrix}\begin{pmatrix}{}
             2 & 1 \\
-                -4 & 3 \\
+            -4 & 3 \\
         \end{pmatrix}
         =\begin{pmatrix}{}
             1 & 0 \\
-                0 & 1 \\
+            0 & 1 \\
         \end{pmatrix}
         \begin{pmatrix}{}
             -4 & 3 \\
-                2 & 1 \\
+            2 & 1 \\
         \end{pmatrix}
     \]
     \pause
@@ -381,18 +381,18 @@
     \[
         \begin{pmatrix}{}
             0 & 1 \\
-                1 & 0 \\
+            1 & 0 \\
             \end{pmatrix}\begin{pmatrix}{}
             2 & 1 \\
-                -4 & 3 \\
+            -4 & 3 \\
         \end{pmatrix}
         =\begin{pmatrix}{}
             1 & 0 \\
-                -\frac{1}{2} & 1 \\
+            -\frac{1}{2} & 1 \\
         \end{pmatrix}
         \begin{pmatrix}{}
             -4 & 3 \\
-                0 & \frac{5}{2} \\
+            0 & \frac{5}{2} \\
         \end{pmatrix}
     \]
 
@@ -405,10 +405,10 @@
 
     \[L=\begin{pmatrix}{}
             1 & 0 \\
-                -\frac{1}{2} & 1 \\
-        \end{pmatrix}, U=\begin{pmatrix}{}
+            -\frac{1}{2} & 1 \\
+            \end{pmatrix}, U=\begin{pmatrix}{}
             -4 & 3 \\
-                0 & \frac{5}{2} \\
+            0 & \frac{5}{2} \\
     \end{pmatrix} \text{and sgn} (\sigma_P)=-1.\]
     \pause
     Thus we have
@@ -416,7 +416,7 @@
         \text{det}(A)=
         \text{det}\begin{pmatrix}{}
             2 & 1 \\
-                -4 & 3 \\
+            -4 & 3 \\
         \end{pmatrix}=\text{sgn}(\sigma_P) \cdot \left( \prod_{i=1}^{n} l_{i,i} \right) \cdot
         \left( \prod_{i=1}^{n} u_{i,i} \right)
     \]
