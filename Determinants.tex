@@ -226,11 +226,27 @@
 
     \begin{exampleblock}{Example}
         \[
-            A= \begin{pmatrix}{}
+            A = \begin{pmatrix}{}
                 0 & 1 \\
                 1 & 0
+            \end{pmatrix} 
+            
+              = \begin{pmatrix}{}
+                \alert{a_{1,1}} & a_{1,2} \\
+                a_{2,1} & a_{2,2}
             \end{pmatrix}
+              = \begin{pmatrix}{}
+                    \alert{l_{1,1}} & 0 \\
+                    l_{2,1} & l_{2,2}
+                \end{pmatrix}
+                \begin{pmatrix}{}
+                    \alert{u_{1,1}} & u_{1,2} \\
+                    0 & u_{2,2}
+                \end{pmatrix}
         \]
+        
+        Here we have $a_{1,1} = l_{1,1}u_{1,1} = 0.$
+        \bigbreak
         This matrix is invertible but has no LU decomposition.
     \end{exampleblock}
 
@@ -312,9 +328,8 @@
 \begin{frame}{How do we find the PLU decomposition? (cont.)}
 \[A=
 \begin{pmatrix}{}
-                2 & 1 & 1 \\
-                4 & 3 & 3 \\
-                8 & 7 & 9
+                2 & 1 \\
+                -4 & 3 \\
             \end{pmatrix}
             \]
             \[
@@ -323,172 +338,88 @@
             
             \[
   \begin{pmatrix}{}
-                1 & 0 & 0 \\
-                0 & 1 & 0 \\
-                0 & 0 & 1
+                1 & 0 \\
+                0 & 1 \\
             \end{pmatrix}\begin{pmatrix}{}
-            2 & 1 & 1 \\
-            4 & 3 & 3 \\
-            8 & 7 & 9
+            2 & 1 \\
+                -4 & 3 \\
         \end{pmatrix}
         =\begin{pmatrix}{}
-            1 & 0 & 0 \\
-            0 & 1 & 0 \\
-            0 & 0 & 1
+            1 & 0 \\
+                0 & 1 \\
         \end{pmatrix}
         \begin{pmatrix}{}
-            2 & 1 & 1 \\
-            4 & 3 & 3 \\
-            8 & 7 & 9
+            2 & 1 \\
+                -4 & 3 \\
         \end{pmatrix}
     \]
 
     \pause
     \[
         \begin{pmatrix}{}
-            0 & 0 & 1 \\
-            0 & 1 & 0 \\
-            1 & 0 & 0
+            0 & 1 \\
+                1 & 0 \\
             \end{pmatrix}\begin{pmatrix}{}
-            2 & 1 & 1 \\
-            4 & 3 & 3 \\
-            8 & 7 & 9
+            2 & 1 \\
+                -4 & 3 \\
         \end{pmatrix}
         =\begin{pmatrix}{}
-            1 & 0 & 0 \\
-            0 & 1 & 0 \\
-            0 & 0 & 1
+            1 & 0 \\
+                0 & 1 \\
         \end{pmatrix}
         \begin{pmatrix}{}
-            8 & 7 & 9 \\
-            4 & 3 & 3 \\
-            2 & 1 & 1
+            -4 & 3 \\
+                2 & 1 \\
         \end{pmatrix}
     \]
     \pause
     \[
+        \text{We have} \frac{U(2,1)}{U(1,1)}=-\frac{1}{2}. \text{ So we do} R_2-(-\frac{1}{2} 
+    \]
+    \[
         \begin{pmatrix}{}
-            0 & 0 & 1 \\
-            0 & 1 & 0 \\
-            1 & 0 & 0
+            0 & 1 \\
+                1 & 0 \\
             \end{pmatrix}\begin{pmatrix}{}
-            2 & 1 & 1 \\
-            4 & 3 & 3 \\
-            8 & 7 & 9
+            2 & 1 \\
+                -4 & 3 \\
         \end{pmatrix}
         =\begin{pmatrix}{}
-            1 & 0 & 0 \\
-            \frac{1}{2} & 1 & 0 \\
-            0 & 0 & 1
+            1 & 0 \\
+                -\frac{1}{2} & 1 \\
         \end{pmatrix}
         \begin{pmatrix}{}
-            8 & 7 & 9 \\
-            0 & -\frac{1}{2} & -\frac{3}{2} \\
-            2 & 1 & 1
+            -4 & 3 \\
+                0 & \frac{5}{2} \\
         \end{pmatrix}
     \]
 
 \end{frame}
 
-\begin{frame}{How do we find the PLU decomposition? (cont.)}
 
-    \[
-        \begin{pmatrix}{}
-            0 & 0 & 1 \\
-            0 & 1 & 0 \\
-            1 & 0 & 0
-            \end{pmatrix}\begin{pmatrix}{}
-            2 & 1 & 1 \\
-            4 & 3 & 3 \\
-            8 & 7 & 9
-        \end{pmatrix}
-        =\begin{pmatrix}{}
-            1 & 0 & 0 \\
-            \frac{1}{2} & 1 & 0 \\
-            0 & 0 & 1
-        \end{pmatrix}
-        \begin{pmatrix}{}
-            8 & 7 & 9 \\
-            0 & -\frac{1}{2} & -\frac{3}{2} \\
-            2 & 1 & 1
-
-        \end{pmatrix}
-    \]
-    \pause
-    \[
-        \begin{pmatrix}{}
-            0 & 0 & 1 \\
-            0 & 1 & 0 \\
-            1 & 0 & 0
-            \end{pmatrix}\begin{pmatrix}{}
-            2 & 1 & 1 \\
-            4 & 3 & 3 \\
-            8 & 7 & 9
-        \end{pmatrix}
-        =\begin{pmatrix}{}
-            1 & 0 & 0 \\
-            \frac{1}{2} & 1 & 0 \\
-            \frac{1}{4} & 0 & 1
-        \end{pmatrix}
-        \begin{pmatrix}{}
-            8 & 7 & 9 \\
-            0 & -\frac{1}{2} & -\frac{3}{2} \\
-            0 & -\frac{3}{4} & -\frac{5}{4}
-
-        \end{pmatrix}
-    \]
-    \pause
-    \[
-        \begin{pmatrix}{}
-            0 & 0 & 1 \\
-            0 & 1 & 0 \\
-            1 & 0 & 0
-            \end{pmatrix}\begin{pmatrix}{}
-            2 & 1 & 1 \\
-            4 & 3 & 3 \\
-            8 & 7 & 9
-        \end{pmatrix}
-        =\begin{pmatrix}{}
-            1 & 0 & 0 \\
-            \frac{1}{2} & 1 & 0 \\
-            \frac{1}{4} & \frac{3}{2} & 1
-        \end{pmatrix}
-        \begin{pmatrix}{}
-            8 & 7 & 9 \\
-            0 & -\frac{1}{2} & -\frac{3}{2} \\
-            0 & 0 & 1
-
-        \end{pmatrix}
-    \]
-
-\end{frame}
 
 \begin{frame}{How do we find the PLU decomposition? (cont.)}
     So we have
 
     \[L=\begin{pmatrix}{}
-            1 & 0 & 0 \\
-            \frac{1}{2} & 1 & 0 \\
-            \frac{1}{4} & \frac{3}{2} & 1
-            \end{pmatrix}, U=\begin{pmatrix}{}
-            8 & 7 & 9 \\
-            0 & -\frac{1}{2} & -\frac{3}{2} \\
-            0 & 0 & 1
+            1 & 0 \\
+                -\frac{1}{2} & 1 \\
+        \end{pmatrix}, U=\begin{pmatrix}{}
+            -4 & 3 \\
+                0 & \frac{5}{2} \\
     \end{pmatrix} \text{and sgn} (\sigma_P)=-1.\]
     \pause
     Thus we have
-
     \[
         \text{det}(A)=
         \text{det}\begin{pmatrix}{}
-            2 & 1 & 1 \\
-            4 & 3 & 3 \\
-            8 & 7 & 9
+            2 & 1 \\
+                -4 & 3 \\
         \end{pmatrix}=\text{sgn}(\sigma_P) \cdot \left( \prod_{i=1}^{n} l_{i,i} \right) \cdot
         \left( \prod_{i=1}^{n} u_{i,i} \right)
     \]
     \[
-        =-1\cdot8\cdot-\frac{1}{2}=4.
+        =-1\cdot-4\cdot\frac{5}{2}=10.
     \]
 
 \end{frame}
