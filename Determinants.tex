@@ -34,7 +34,7 @@
 \section{Why calculate determinants?}
 
 \subsection{Invertibility of matrices}
-\begin{frame}{Invertbililty of matrices}
+\begin{frame}{Invertibililty of matrices}
 
     \begin{block}{Theorem}
         An $n \times n$ square matrix $A$ is invertible if and only if
@@ -137,7 +137,7 @@
     We'll be looking at the runtime of algorithms, so this is useful.
 
     \begin{block}{Definition}
-        A function $f$ is defined to be $\mathcal{O}(g)$, with $g$ a function iff
+        A function $f$ is said to be $\mathcal{O}(g)$, with $g$ a function iff
         \[
             \exists k \in \mathbb{R} \backepsilon f(n) < k \cdot g(n)
         \]
@@ -161,7 +161,7 @@
 
     \pause{}
 
-    Computing the determinant using this method is slow with runtime $\mathcal{O}((n+1)!)$.
+    Computing the determinant using this method is slow with runtime $\mathcal{O}(n(n)!)$.
 
 \end{frame}
 
@@ -310,20 +310,22 @@
 \end{frame}
 
 \begin{frame}{How do we find the PLU decomposition? (cont.)}
-    \[A=
-        \begin{pmatrix}{}
-            2 & 1 & 1 \\
-            4 & 3 & 3 \\
-            8 & 7 & 9
-        \end{pmatrix}
-    \]
-    \pause
-
-    \[
-        \begin{pmatrix}{}
-            1 & 0 & 0 \\
-            0 & 1 & 0 \\
-            0 & 0 & 1
+\[A=
+\begin{pmatrix}{}
+                2 & 1 & 1 \\
+                4 & 3 & 3 \\
+                8 & 7 & 9
+            \end{pmatrix}
+            \]
+            \[
+            PA=LU
+            \]
+            
+            \[
+  \begin{pmatrix}{}
+                1 & 0 & 0 \\
+                0 & 1 & 0 \\
+                0 & 0 & 1
             \end{pmatrix}\begin{pmatrix}{}
             2 & 1 & 1 \\
             4 & 3 & 3 \\
