@@ -7,9 +7,9 @@
 \beamer@subsectionintoc {2}{1}{Leibniz formula}{8}{0}{2}
 \beamer@subsectionintoc {2}{2}{Laplace expansion}{10}{0}{2}
 \beamer@subsectionintoc {2}{3}{LU decomposition}{14}{0}{2}
-\beamer@subsectionintoc {2}{4}{Gaussian elimination}{31}{0}{2}
-\beamer@subsectionintoc {2}{5}{Bareiss algorithm}{36}{0}{2}
-\beamer@subsectionintoc {2}{6}{Bird's algorithm}{38}{0}{2}
-\beamer@sectionintoc {3}{Epilogue}{43}{0}{3}
-\beamer@subsectionintoc {3}{1}{Summary of determinant algorithms}{43}{0}{3}
-\beamer@subsectionintoc {3}{2}{How fast is Maple's implementation?}{44}{0}{3}
+\beamer@subsectionintoc {2}{4}{Gaussian elimination}{32}{0}{2}
+\beamer@subsectionintoc {2}{5}{Bareiss algorithm}{37}{0}{2}
+\beamer@subsectionintoc {2}{6}{Bird's algorithm}{39}{0}{2}
+\beamer@sectionintoc {3}{Epilogue}{44}{0}{3}
+\beamer@subsectionintoc {3}{1}{Summary of determinant algorithms}{44}{0}{3}
+\beamer@subsectionintoc {3}{2}{How fast is Maple's implementation?}{45}{0}{3}
