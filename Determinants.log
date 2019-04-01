@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.3.25)  1 APR 2019 17:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.3.25)  1 APR 2019 19:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -581,35 +581,35 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \hskip 10.95003pt
-(hyperref)                replaced by space on input line 21.
+(hyperref)                replaced by space on input line 20.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \hskip 10.95003pt
-(hyperref)                replaced by space on input line 21.
+(hyperref)                replaced by space on input line 20.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \hskip 10.95003pt
-(hyperref)                replaced by space on input line 21.
+(hyperref)                replaced by space on input line 20.
 
 (./Determinants.aux)
 \openout1 = `Determinants.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -671,7 +671,7 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box57
-Package hyperref Info: Link coloring OFF on input line 25.
+Package hyperref Info: Link coloring OFF on input line 24.
  (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -679,62 +679,62 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count185
 )
-LaTeX Info: Redefining \ref on input line 25.
-LaTeX Info: Redefining \pageref on input line 25.
-LaTeX Info: Redefining \nameref on input line 25.
+LaTeX Info: Redefining \ref on input line 24.
+LaTeX Info: Redefining \pageref on input line 24.
+LaTeX Info: Redefining \nameref on input line 24.
  (./Determinants.out) (./Determinants.out)
 \@outlinefile=\write5
 \openout5 = `Determinants.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 25.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 24.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 25.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 24.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 25.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 25.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 25.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 25.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 24.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 25.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 25.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 25.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 24.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 25.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 25.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 25.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 24.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 25.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 25.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 24.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 25.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 24.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 25.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 25.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 25.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 25.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 25.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 25.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 25.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 24.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 24.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 25.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 24.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 25.
+(Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 24.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 25.
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 24.
  (/usr/share/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/share/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -752,15 +752,15 @@ Dictionary: translator-theorem-dictionary, Language: English
 ] (./Determinants.toc) [2
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 47.
+LaTeX Font Info:    Try loading font information for U+msa on input line 46.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 47.
+LaTeX Font Info:    Try loading font information for U+msb on input line 46.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input line 47.
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input line 46.
  (/usr/share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 ) [3
@@ -774,15 +774,21 @@ File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/mat
 ] [7
 
 ]
-LaTeX Font Info:    Try loading font information for U+euf on input line 153.
+LaTeX Font Info:    Try loading font information for U+euf on input line 152.
  (/usr/share/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 ) [8
 
 ] [9
 
+] [10
+
+] [11
+
+] [12
+
 ]
-<pics/leibniz-laplace.pdf, id=492, 401.5pt x 401.5pt>
+<pics/leibniz-laplace.pdf, id=855, 401.5pt x 401.5pt>
 
 ./Determinants.tex:187: Illegal unit of measure (pt inserted).
 <to be read again> 
@@ -812,25 +818,31 @@ File: pics/leibniz-laplace.pdf Graphic file (type pdf)
 <use pics/leibniz-laplace.pdf>
 Package pdftex.def Info: pics/leibniz-laplace.pdf  used on input line 187.
 (pdftex.def)             Requested size: 180.00554pt x 180.0pt.
-[10
+[13
 
- <./pics/leibniz-laplace.pdf>] [11
-
-] [12
-
-] [13
-
-] [14
+ <./pics/leibniz-laplace.pdf>] [14
 
 ] [15
 
-]
-<pics/PLUcode.png, id=708, 690.58pt x 334.24875pt>
+] [16
 
-./Determinants.tex:292: Illegal unit of measure (pt inserted).
+] [17
+
+] [18
+
+] [19
+
+] [20
+
+] [21
+
+]
+<pics/PLUcode.png, id=1370, 690.58pt x 334.24875pt>
+
+./Determinants.tex:296: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.292 \end{frame}
+l.296 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -839,10 +851,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Determinants.tex:292: Illegal unit of measure (pt inserted).
+./Determinants.tex:296: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.292 \end{frame}
+l.296 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -853,21 +865,27 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: pics/PLUcode.png Graphic file (type png)
 <use pics/PLUcode.png>
-Package pdftex.def Info: pics/PLUcode.png  used on input line 292.
+Package pdftex.def Info: pics/PLUcode.png  used on input line 296.
 (pdftex.def)             Requested size: 289.25131pt x 140.0pt.
-[16
+[22
 
- <./pics/PLUcode.png>] [17
+ <./pics/PLUcode.png>] [23
 
-] [18
+] [24
+
+] [25
+
+] [26
+
+] [27
 
 ]
-<pics/laplace-lu.pdf, id=814, 401.5pt x 401.5pt>
+<pics/laplace-lu.pdf, id=1710, 401.5pt x 401.5pt>
 
-./Determinants.tex:358: Illegal unit of measure (pt inserted).
+./Determinants.tex:356: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.358 \end{frame}
+l.356 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -876,10 +894,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Determinants.tex:358: Illegal unit of measure (pt inserted).
+./Determinants.tex:356: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.358 \end{frame}
+l.356 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -890,19 +908,29 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: pics/laplace-lu.pdf Graphic file (type pdf)
 <use pics/laplace-lu.pdf>
-Package pdftex.def Info: pics/laplace-lu.pdf  used on input line 358.
+Package pdftex.def Info: pics/laplace-lu.pdf  used on input line 356.
 (pdftex.def)             Requested size: 180.00554pt x 180.0pt.
-[19
+[28
 
- <./pics/laplace-lu.pdf>] [20
+ <./pics/laplace-lu.pdf>] [29
+
+] [30
+
+] [31
+
+] [32
+
+] [33
+
+] [34
 
 ]
-<pics/lu-gauss.pdf, id=891, 401.5pt x 401.5pt>
+<pics/lu-gauss.pdf, id=2111, 401.5pt x 401.5pt>
 
-./Determinants.tex:388: Illegal unit of measure (pt inserted).
+./Determinants.tex:406: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.388 \end{frame}
+l.406 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -911,10 +939,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Determinants.tex:388: Illegal unit of measure (pt inserted).
+./Determinants.tex:406: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.388 \end{frame}
+l.406 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -925,25 +953,33 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: pics/lu-gauss.pdf Graphic file (type pdf)
 <use pics/lu-gauss.pdf>
-Package pdftex.def Info: pics/lu-gauss.pdf  used on input line 388.
+Package pdftex.def Info: pics/lu-gauss.pdf  used on input line 406.
 (pdftex.def)             Requested size: 180.00554pt x 180.0pt.
-[21
+[35
 
- <./pics/lu-gauss.pdf>] [22
+ <./pics/lu-gauss.pdf>] [36
 
-] [23
+] [37
 
-] [24
+] [38
 
-] [25
+] [39
+
+] [40
+
+] [41
+
+] [42
+
+] [43
 
 ]
-<pics/bird-lu.pdf, id=1071, 401.5pt x 401.5pt>
+<pics/bird-lu.pdf, id=2623, 401.5pt x 401.5pt>
 
-./Determinants.tex:501: Illegal unit of measure (pt inserted).
+./Determinants.tex:513: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.501 \end{frame}
+l.513 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -952,10 +988,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Determinants.tex:501: Illegal unit of measure (pt inserted).
+./Determinants.tex:513: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.501 \end{frame}
+l.513 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -966,19 +1002,19 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: pics/bird-lu.pdf Graphic file (type pdf)
 <use pics/bird-lu.pdf>
-Package pdftex.def Info: pics/bird-lu.pdf  used on input line 501.
+Package pdftex.def Info: pics/bird-lu.pdf  used on input line 513.
 (pdftex.def)             Requested size: 180.00554pt x 180.0pt.
-[26
+[44
 
- <./pics/bird-lu.pdf>] [27
+ <./pics/bird-lu.pdf>] [45
 
 ]
-<pics/gauss-maple.pdf, id=1147, 401.5pt x 401.5pt>
+<pics/gauss-maple.pdf, id=2741, 401.5pt x 401.5pt>
 
-./Determinants.tex:536: Illegal unit of measure (pt inserted).
+./Determinants.tex:548: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.536 \end{frame}
+l.548 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -987,10 +1023,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Determinants.tex:536: Illegal unit of measure (pt inserted).
+./Determinants.tex:548: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.536 \end{frame}
+l.548 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1001,11 +1037,11 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: pics/gauss-maple.pdf Graphic file (type pdf)
 <use pics/gauss-maple.pdf>
-Package pdftex.def Info: pics/gauss-maple.pdf  used on input line 536.
+Package pdftex.def Info: pics/gauss-maple.pdf  used on input line 548.
 (pdftex.def)             Requested size: 180.00554pt x 180.0pt.
-[28
+[46
 
- <./pics/gauss-maple.pdf>] [29
+ <./pics/gauss-maple.pdf>] [47
 
 ]
 \tf@nav=\write6
@@ -1017,27 +1053,27 @@ Package pdftex.def Info: pics/gauss-maple.pdf  used on input line 536.
 \tf@snm=\write8
 \openout8 = `Determinants.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 546.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 546.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 558.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 558.
  (./Determinants.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 546.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 546.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 558.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 558.
 Package rerunfilecheck Info: File `Determinants.out' has not changed.
-(rerunfilecheck)             Checksum: BCFED20447DCA0786F12C0AF39C2B61D;1032.
+(rerunfilecheck)             Checksum: BEF65DE98D86A3F92D10718580D6EF94;1033.
  ) 
 Here is how much of TeX's memory you used:
- 17891 strings out of 492616
- 338276 string characters out of 6135177
- 439649 words of memory out of 5000000
- 21297 multiletter control sequences out of 15000+600000
+ 17934 strings out of 492616
+ 338787 string characters out of 6135177
+ 448719 words of memory out of 5000000
+ 21304 multiletter control sequences out of 15000+600000
  12642 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,20n,63p,779b,770s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,20n,63p,806b,774s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Determinants.pdf (29 pages, 270230 bytes).
+Output written on Determinants.pdf (47 pages, 363051 bytes).
 PDF statistics:
- 1289 PDF objects out of 1440 (max. 8388607)
- 1168 compressed objects within 12 object streams
- 74 named destinations out of 1000 (max. 500000)
+ 2935 PDF objects out of 2984 (max. 8388607)
+ 2779 compressed objects within 28 object streams
+ 110 named destinations out of 1000 (max. 500000)
  259 words of extra memory for PDF output out of 10000 (max. 10000000)
 

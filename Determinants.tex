@@ -1,6 +1,5 @@
-% \documentclass{beamer}
-\documentclass[handout]{beamer}
-
+\documentclass{beamer}
+% \documentclass[handout]{beamer} 
 \usepackage[utf8]{inputenc}
 \usepackage{tabularx}
 \usepackage{amsmath}
@@ -15,7 +14,7 @@
 
 \usetheme{Frankfurt}
 
-\title{Determinants}
+\title{Computing the determinant}
 \subtitle{Group 12}
 
 \author{Catterwell, A. \quad Smith, M. \quad Wang, R. \quad Watson, K.}
@@ -60,7 +59,7 @@
         of $A$ by $\mathbf{b}$.
     \end{block}
 
-    \pause{}
+    % \pause{}
 
     It turns out this method has the same runtime complexity as Gaussian elimination for solving
     systems of linear equations.
@@ -79,7 +78,7 @@
         \]
     \end{block}
 
-    \pause{}
+    % \pause{}
 
     \begin{block}{Definition}
         The Eigenvectors of $A$ are the vectors $\mathbf{v}$ such that
@@ -118,7 +117,7 @@
     \]
     Its determinant is known as the \emph{Jacobian determinant}.
 
-    \pause{}
+    % \pause{}
 
     \begin{exampleblock}{}
         If the determinant of a continuously differentiable function $f$ at a point $p$ is\dots
@@ -167,7 +166,8 @@
         \[
             \det(A) = \sum_{j=1}^n a_{1,j}\, C_{1,j}
         \]
-        where $C_{i,j}$ is the $(i, j)$ cofactor of $A$.
+        where $C_{i,j} = {(-1)}^{i+j} \det{(A \langle i, j \rangle)}$ is the
+        $(i, j)$ cofactor of $A$.
     \end{block}
 
     \pause{}
@@ -243,7 +243,7 @@
     \pause{}
 
     \begin{block}{}
-        This technique works on \emph{any} invertible matrix.
+        This technique works on \emph{any} matrix.
     \end{block}
 
 \end{frame}
@@ -288,6 +288,10 @@
     \begin{center}{}
         \includegraphics[height=140]{PLUcode.png}
     \end{center}
+
+    \begin{alertblock}{}
+        This algorithm only works on invertible matrices (line 8 division).
+    \end{alertblock}
 
 \end{frame}
 
@@ -338,12 +342,6 @@
         \mathcal{O}(n^3) + \mathcal{O}(n^2) + \mathcal{O}(n) = \mathcal{O}(n^3).
     \]
 
-    \pause{}
-
-    \begin{exampleblock}{}
-        What are some other methods to compute determinants?
-    \end{exampleblock}
-
 \end{frame}
 
 
@@ -357,6 +355,24 @@
     % Let's look at a better algorithm.
 \end{frame}
 
+
+\begin{frame}{Limitations of LU decomposition}
+
+    The main problem with the LU decomposition algorithm used is that it often requires division.
+
+    \begin{itemize}
+        \pause{}
+        \item Division is not a ring operation, so it won't work on matrices over rings.
+        \pause{}
+        \item Unless we compute exactly (difficult on a computer), precision may be lost.
+    \end{itemize}
+
+    \pause{}
+    Let's try something else\dots
+
+\end{frame}
+
+
 \subsection{Gaussian elimination}
 
 \begin{frame}{Gaussian elimination}
@@ -368,6 +384,8 @@
 
         \item Any invertible square matrix can be transformed into echelon form by performing
             Gaussian elimination, which takes $\mathcal{O}(n^3)$ time.
+
+        \item Quite similar to algorithm for LU decomposition.
 
     \end{itemize}
 
@@ -389,13 +407,7 @@
 
 \begin{frame}{Gaussian elimination (cont.)}
 
-    Conventional Gaussian elimination requires division.
-    This has two problems:
-    \begin{itemize}
-        \item Over $\mathbb{M}(n; \mathbb{R})$ solutions maybe inexact, so precision is lost.
-        \item Division is not a ring operation,
-            so would not necessarily work on matrices over a ring.
-    \end{itemize}
+    Conventional Gaussian elimination (like LU decomposition) requires division.
 
     \pause{}
 
