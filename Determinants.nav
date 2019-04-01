@@ -65,40 +65,28 @@
 \headcommand {\slideentry {2}{3}{12}{35/38}{LU decomposition}{0}}
 \headcommand {\beamer@framepages {35}{38}}
 \headcommand {\beamer@subsectionpages {16}{38}}
-\headcommand {\beamer@subsectionentry {0}{2}{4}{39}{Gaussian elimination}}
-\headcommand {\slideentry {2}{4}{1}{39/40}{Gaussian elimination}{0}}
+\headcommand {\beamer@subsectionentry {0}{2}{4}{39}{Bird's algorithm}}
+\headcommand {\slideentry {2}{4}{1}{39/40}{Bird's algorithm}{0}}
 \headcommand {\beamer@framepages {39}{40}}
-\headcommand {\slideentry {2}{4}{2}{41/41}{Gaussian elimination}{0}}
-\headcommand {\beamer@framepages {41}{41}}
-\headcommand {\slideentry {2}{4}{3}{42/43}{Gaussian elimination}{0}}
-\headcommand {\beamer@framepages {42}{43}}
+\headcommand {\slideentry {2}{4}{2}{41/42}{Bird's algorithm}{0}}
+\headcommand {\beamer@framepages {41}{42}}
+\headcommand {\slideentry {2}{4}{3}{43/43}{Bird's algorithm}{0}}
+\headcommand {\beamer@framepages {43}{43}}
+\headcommand {\beamer@sectionpages {9}{43}}
 \headcommand {\beamer@subsectionpages {39}{43}}
-\headcommand {\beamer@subsectionentry {0}{2}{5}{44}{Bareiss algorithm}}
-\headcommand {\slideentry {2}{5}{1}{44/45}{Bareiss algorithm}{0}}
-\headcommand {\beamer@framepages {44}{45}}
-\headcommand {\beamer@subsectionpages {44}{45}}
-\headcommand {\beamer@subsectionentry {0}{2}{6}{46}{Bird's algorithm}}
-\headcommand {\slideentry {2}{6}{1}{46/47}{Bird's algorithm}{0}}
-\headcommand {\beamer@framepages {46}{47}}
-\headcommand {\slideentry {2}{6}{2}{48/49}{Bird's algorithm}{0}}
-\headcommand {\beamer@framepages {48}{49}}
-\headcommand {\slideentry {2}{6}{3}{50/50}{Bird's algorithm}{0}}
-\headcommand {\beamer@framepages {50}{50}}
-\headcommand {\beamer@sectionpages {9}{50}}
-\headcommand {\beamer@subsectionpages {46}{50}}
-\headcommand {\sectionentry {3}{Epilogue}{51}{Epilogue}{0}}
-\headcommand {\beamer@subsectionpages {51}{50}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{51}{Summary of determinant algorithms}}
-\headcommand {\slideentry {3}{1}{1}{51/51}{Summary of determinant algorithms}{0}}
-\headcommand {\beamer@framepages {51}{51}}
-\headcommand {\beamer@subsectionpages {51}{51}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{52}{How fast is Maple's implementation?}}
-\headcommand {\slideentry {3}{2}{1}{52/52}{How fast is Maple's implementation?}{0}}
-\headcommand {\beamer@framepages {52}{52}}
-\headcommand {\slideentry {3}{2}{2}{53/53}{How fast is Maple's implementation?}{0}}
-\headcommand {\beamer@framepages {53}{53}}
-\headcommand {\beamer@partpages {1}{53}}
-\headcommand {\beamer@subsectionpages {52}{53}}
-\headcommand {\beamer@sectionpages {51}{53}}
-\headcommand {\beamer@documentpages {53}}
-\headcommand {\gdef \inserttotalframenumber {33}}
+\headcommand {\sectionentry {3}{Epilogue}{44}{Epilogue}{0}}
+\headcommand {\beamer@subsectionpages {44}{43}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{44}{Summary of determinant algorithms}}
+\headcommand {\slideentry {3}{1}{1}{44/44}{Summary of determinant algorithms}{0}}
+\headcommand {\beamer@framepages {44}{44}}
+\headcommand {\beamer@subsectionpages {44}{44}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{45}{How fast is Maple's implementation?}}
+\headcommand {\slideentry {3}{2}{1}{45/45}{How fast is Maple's implementation?}{0}}
+\headcommand {\beamer@framepages {45}{45}}
+\headcommand {\slideentry {3}{2}{2}{46/46}{How fast is Maple's implementation?}{0}}
+\headcommand {\beamer@framepages {46}{46}}
+\headcommand {\beamer@partpages {1}{46}}
+\headcommand {\beamer@subsectionpages {45}{46}}
+\headcommand {\beamer@sectionpages {44}{46}}
+\headcommand {\beamer@documentpages {46}}
+\headcommand {\gdef \inserttotalframenumber {29}}

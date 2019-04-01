@@ -337,9 +337,6 @@ INPUT ./pics/PLUcode.png
 INPUT pics/laplace-lu.pdf
 INPUT ./pics/laplace-lu.pdf
 INPUT ./pics/laplace-lu.pdf
-INPUT pics/lu-gauss.pdf
-INPUT ./pics/lu-gauss.pdf
-INPUT ./pics/lu-gauss.pdf
 INPUT pics/bird-lu.pdf
 INPUT ./pics/bird-lu.pdf
 INPUT ./pics/bird-lu.pdf

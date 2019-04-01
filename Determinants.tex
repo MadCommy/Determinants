@@ -143,7 +143,7 @@
         \]
         for sufficiently large $n$.
     \end{block}
-    
+
 \end{frame}
 
 \subsection{Leibniz formula}
@@ -161,7 +161,7 @@
 
     \pause{}
 
-    Computing the determinant using this method is slow with runtime $\mathcal{O}(n(n)!)$.
+    Computing the determinant using this method is slow with runtime $\mathcal{O}(n\cdot n!)$.
 
 \end{frame}
 
@@ -310,22 +310,22 @@
 \end{frame}
 
 \begin{frame}{How do we find the PLU decomposition? (cont.)}
-\[A=
-\begin{pmatrix}{}
-                2 & 1 & 1 \\
-                4 & 3 & 3 \\
-                8 & 7 & 9
-            \end{pmatrix}
-            \]
-            \[
-            PA=LU
-            \]
-            
-            \[
-  \begin{pmatrix}{}
-                1 & 0 & 0 \\
-                0 & 1 & 0 \\
-                0 & 0 & 1
+    \[A=
+        \begin{pmatrix}{}
+            2 & 1 & 1 \\
+            4 & 3 & 3 \\
+            8 & 7 & 9
+        \end{pmatrix}
+    \]
+    \[
+        PA=LU
+    \]
+
+    \[
+        \begin{pmatrix}{}
+            1 & 0 & 0 \\
+            0 & 1 & 0 \\
+            0 & 0 & 1
             \end{pmatrix}\begin{pmatrix}{}
             2 & 1 & 1 \\
             4 & 3 & 3 \\
@@ -538,68 +538,6 @@ Let's try something else\dots
 \end{frame}
 
 
-\subsection{Gaussian elimination}
-
-\begin{frame}{Gaussian elimination}
-
-    \begin{itemize}
-
-        \item The determinant of a triangular matrix can be computed by taking the product of its
-            diagonal entries (which is a quick $\mathcal{O}(n)$ operation).
-
-        \item Any invertible square matrix can be transformed into echelon form by performing
-            Gaussian elimination, which takes $\mathcal{O}(n^3)$ time.
-
-        \item Quite similar to algorithm for LU decomposition.
-
-    \end{itemize}
-
-    \pause{}
-
-    So how does it compare to LU decomposition?
-
-\end{frame}
-
-\begin{frame}{Gaussian elimination vs LU decomposition}
-
-    \begin{center}{}
-        \includegraphics[height=180]{lu-gauss}
-    \end{center}
-
-    The difference in runtimes is small (a constant factor).
-
-\end{frame}
-
-\begin{frame}{Gaussian elimination (cont.)}
-
-    Conventional Gaussian elimination (like LU decomposition) requires division.
-
-    \pause{}
-
-    This is can be addressed by using\dots
-
-\end{frame}
-
-\subsection{Bareiss algorithm}
-
-\begin{frame}{Bareiss algorithm}
-
-    \begin{itemize}
-
-        \item Addresses the issue of precision-loss by performing \emph{integer-preserving}
-            Gaussian elimination on integer matrices.
-
-        \item The runtime complexity is $\mathcal{O}(n^3)$ which is the same as conventional
-            Gaussian Elimination, whilst preserving exactness.
-
-    \end{itemize}
-
-    \pause{}
-
-    Unfortunately, the maths behind this is a bit hard\dots
-
-\end{frame}
-
 \subsection{Bird's algorithm}
 
 \begin{frame}{Bird's algorithm}
@@ -688,11 +626,11 @@ Let's try something else\dots
             \toprule
             \emph{Algorithm}     & \emph{Runtime}           & \emph{Exact?} \\
             \midrule
-            Leibniz formula      & $\mathcal{O}((n+1)!)$    & Yes \\
+            Leibniz formula      & $\mathcal{O}(n\cdot n!)$    & Yes \\
             Laplace expansion    & $\mathcal{O}(n!)$        & Yes \\
             LU decomposition     & $\mathcal{O}(n^3)$       & No \\
-            Gaussian elimination & $\mathcal{O}(n^3)$       & No \\
-            Bareiss algorithm    & $\mathcal{O}(n^3)$       & Yes \\
+            % Gaussian elimination & $\mathcal{O}(n^3)$       & No \\
+            % Bareiss algorithm    & $\mathcal{O}(n^3)$       & Yes \\
             Bird's algorithm     & $\mathcal{O}(n^{3.8})$   & Yes \\
             \bottomrule
         \end{tabular}
@@ -720,3 +658,65 @@ Let's try something else\dots
 \end{frame}
 
 \end{document}
+
+% \subsection{Gaussian elimination}
+
+% \begin{frame}{Gaussian elimination}
+
+%     \begin{itemize}
+
+%         \item The determinant of a triangular matrix can be computed by taking the product of its
+%             diagonal entries (which is a quick $\mathcal{O}(n)$ operation).
+
+%         \item Any invertible square matrix can be transformed into echelon form by performing
+%             Gaussian elimination, which takes $\mathcal{O}(n^3)$ time.
+
+%         \item Quite similar to algorithm for LU decomposition.
+
+%     \end{itemize}
+
+%     \pause{}
+
+%     So how does it compare to LU decomposition?
+
+% \end{frame}
+
+% \begin{frame}{Gaussian elimination vs LU decomposition}
+
+%     \begin{center}{}
+%         \includegraphics[height=180]{lu-gauss}
+%     \end{center}
+
+%     The difference in runtimes is small (a constant factor).
+
+% \end{frame}
+
+% \begin{frame}{Gaussian elimination (cont.)}
+
+%     Conventional Gaussian elimination (like LU decomposition) requires division.
+
+%     \pause{}
+
+%     This is can be addressed by using\dots
+
+% \end{frame}
+
+% \subsection{Bareiss algorithm}
+
+% \begin{frame}{Bareiss algorithm}
+
+%     \begin{itemize}
+
+%         \item Addresses the issue of precision-loss by performing \emph{integer-preserving}
+%             Gaussian elimination on integer matrices.
+
+%         \item The runtime complexity is $\mathcal{O}(n^3)$ which is the same as conventional
+%             Gaussian Elimination, whilst preserving exactness.
+
+%     \end{itemize}
+
+%     \pause{}
+
+%     Unfortunately, the maths behind this is a bit hard\dots
+
+% \end{frame}
