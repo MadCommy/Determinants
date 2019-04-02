@@ -272,12 +272,6 @@
         \sigma_P(A) = PA = LU
     \]
 
-    \pause{}
-
-    \begin{block}{}
-        This technique works on \emph{any} matrix.
-    \end{block}
-
 \end{frame}
 
 \begin{frame}{How it helps us compute determinants}
@@ -407,8 +401,25 @@
             \end{pmatrix}, U=\begin{pmatrix}{}
             -4 & 3 \\
             0 & \frac{5}{2} \\
-    \end{pmatrix} \text{and sgn} (\sigma_P)=-1.\]
+    \end{pmatrix} \text{and sgn} (\sigma_P)=-1.
+    \]
+    
+    
+    
+     \begin{block}{}
+        \[
+            \det(A) = \text{sgn}(\sigma_P) \cdot \left( \prod_{i=1}^{n} l_{i,i} \right) \cdot
+            \left( \prod_{i=1}^{n} u_{i,i} \right)
+        \]
+    \end{block}
+    
+    
+    
     \pause
+    
+    
+    
+    
     Thus we have
     \[
         \text{det}(A)
