@@ -334,6 +334,7 @@ INPUT ./pics/leibniz-laplace.pdf
 INPUT pics/PLUcode.png
 INPUT ./pics/PLUcode.png
 INPUT ./pics/PLUcode.png
+INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
 INPUT pics/laplace-lu.pdf
 INPUT ./pics/laplace-lu.pdf
 INPUT ./pics/laplace-lu.pdf

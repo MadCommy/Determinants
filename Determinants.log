@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.3.25)  1 APR 2019 22:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.3.25)  2 APR 2019 13:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -581,35 +581,35 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \hskip 10.95003pt
-(hyperref)                replaced by space on input line 20.
+(hyperref)                replaced by space on input line 21.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \hskip 10.95003pt
-(hyperref)                replaced by space on input line 20.
+(hyperref)                replaced by space on input line 21.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \hskip 10.95003pt
-(hyperref)                replaced by space on input line 20.
+(hyperref)                replaced by space on input line 21.
 
 (./Determinants.aux)
 \openout1 = `Determinants.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -671,7 +671,7 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box57
-Package hyperref Info: Link coloring OFF on input line 24.
+Package hyperref Info: Link coloring OFF on input line 25.
  (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -679,62 +679,62 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count185
 )
-LaTeX Info: Redefining \ref on input line 24.
-LaTeX Info: Redefining \pageref on input line 24.
-LaTeX Info: Redefining \nameref on input line 24.
+LaTeX Info: Redefining \ref on input line 25.
+LaTeX Info: Redefining \pageref on input line 25.
+LaTeX Info: Redefining \nameref on input line 25.
  (./Determinants.out) (./Determinants.out)
 \@outlinefile=\write5
 \openout5 = `Determinants.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 24.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 25.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 24.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 25.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 24.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 25.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 24.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 25.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 24.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 24.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 25.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 25.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 24.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 25.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 24.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 24.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 25.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 25.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 24.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 25.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 24.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 24.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 25.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 25.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 24.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 25.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 24.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 25.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 24.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 25.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 24.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 25.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 24.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 25.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 24.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 25.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 24.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 25.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 24.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 25.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 24.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 24.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 25.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 25.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 24.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 25.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 24.
+(Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 25.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 24.
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 25.
  (/usr/share/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/share/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -752,15 +752,15 @@ Dictionary: translator-theorem-dictionary, Language: English
 ] (./Determinants.toc) [2
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 46.
+LaTeX Font Info:    Try loading font information for U+msa on input line 47.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 46.
+LaTeX Font Info:    Try loading font information for U+msb on input line 47.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input line 46.
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input line 47.
  (/usr/share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 ) [3
@@ -778,7 +778,7 @@ File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/mat
 ] [9
 
 ]
-LaTeX Font Info:    Try loading font information for U+euf on input line 166.
+LaTeX Font Info:    Try loading font information for U+euf on input line 167.
  (/usr/share/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 ) [10
@@ -794,10 +794,10 @@ File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 ]
 <pics/leibniz-laplace.pdf, id=926, 401.5pt x 401.5pt>
 
-./Determinants.tex:201: Illegal unit of measure (pt inserted).
+./Determinants.tex:202: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.201 \end{frame}
+l.202 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -806,10 +806,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Determinants.tex:201: Illegal unit of measure (pt inserted).
+./Determinants.tex:202: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.201 \end{frame}
+l.202 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -820,335 +820,17 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: pics/leibniz-laplace.pdf Graphic file (type pdf)
 <use pics/leibniz-laplace.pdf>
-Package pdftex.def Info: pics/leibniz-laplace.pdf  used on input line 201.
+Package pdftex.def Info: pics/leibniz-laplace.pdf  used on input line 202.
 (pdftex.def)             Requested size: 180.00554pt x 180.0pt.
 [15
 
  <./pics/leibniz-laplace.pdf>] [16
 
-]
-./Determinants.tex:259: Missing $ inserted.
-<inserted text> 
-                $
-l.259 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+] [17
 
-./Determinants.tex:259: Display math should end with $$.
-<to be read again> 
-                   \par 
-l.259 \end{frame}
-                 
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
+] [18
 
-./Determinants.tex:259: Missing $ inserted.
-<inserted text> 
-                $
-l.259 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./Determinants.tex:259: Missing $ inserted.
-<inserted text> 
-                $
-l.259 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./Determinants.tex:259: Missing $ inserted.
-<inserted text> 
-                $
-l.259 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./Determinants.tex:259: Missing $ inserted.
-<inserted text> 
-                $
-l.259 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./Determinants.tex:259: Missing $ inserted.
-<inserted text> 
-                $
-l.259 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./Determinants.tex:259: Missing $ inserted.
-<inserted text> 
-                $
-l.259 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-./Determinants.tex:259: LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.259 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./Determinants.tex:259: Missing $ inserted.
-<inserted text> 
-                $
-l.259 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./Determinants.tex:259: Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.259 \end{frame}
-                 
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-[17
-
-]
-./Determinants.tex:259: Missing $ inserted.
-<inserted text> 
-                $
-l.259 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./Determinants.tex:259: Display math should end with $$.
-<to be read again> 
-                   \par 
-l.259 \end{frame}
-                 
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-./Determinants.tex:259: Missing $ inserted.
-<inserted text> 
-                $
-l.259 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./Determinants.tex:259: Missing $ inserted.
-<inserted text> 
-                $
-l.259 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./Determinants.tex:259: Missing $ inserted.
-<inserted text> 
-                $
-l.259 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./Determinants.tex:259: Missing $ inserted.
-<inserted text> 
-                $
-l.259 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./Determinants.tex:259: Missing $ inserted.
-<inserted text> 
-                $
-l.259 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./Determinants.tex:259: Missing $ inserted.
-<inserted text> 
-                $
-l.259 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-./Determinants.tex:259: LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.259 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./Determinants.tex:259: Missing $ inserted.
-<inserted text> 
-                $
-l.259 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./Determinants.tex:259: Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.259 \end{frame}
-                 
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-[18
-
-]
-./Determinants.tex:259: Missing $ inserted.
-<inserted text> 
-                $
-l.259 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./Determinants.tex:259: Display math should end with $$.
-<to be read again> 
-                   \par 
-l.259 \end{frame}
-                 
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-./Determinants.tex:259: Missing $ inserted.
-<inserted text> 
-                $
-l.259 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./Determinants.tex:259: Missing $ inserted.
-<inserted text> 
-                $
-l.259 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./Determinants.tex:259: Missing $ inserted.
-<inserted text> 
-                $
-l.259 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./Determinants.tex:259: Missing $ inserted.
-<inserted text> 
-                $
-l.259 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./Determinants.tex:259: Missing $ inserted.
-<inserted text> 
-                $
-l.259 \end{frame}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./Determinants.tex:259: Missing $ inserted.
-<inserted text> 
-                $
-l.259 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-./Determinants.tex:259: LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.259 \end{frame}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./Determinants.tex:259: Missing $ inserted.
-<inserted text> 
-                $
-l.259 \end{frame}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./Determinants.tex:259: Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.259 \end{frame}
-                 
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-[19
+] [19
 
 ] [20
 
@@ -1161,10 +843,10 @@ So I shall assume that you typed `$$' both times.
 ]
 <pics/PLUcode.png, id=1421, 690.58pt x 334.24875pt>
 
-./Determinants.tex:326: Illegal unit of measure (pt inserted).
+./Determinants.tex:328: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.326 \end{frame}
+l.328 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1173,10 +855,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Determinants.tex:326: Illegal unit of measure (pt inserted).
+./Determinants.tex:328: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.326 \end{frame}
+l.328 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1187,47 +869,41 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: pics/PLUcode.png Graphic file (type png)
 <use pics/PLUcode.png>
-Package pdftex.def Info: pics/PLUcode.png  used on input line 326.
+Package pdftex.def Info: pics/PLUcode.png  used on input line 328.
 (pdftex.def)             Requested size: 289.25131pt x 140.0pt.
 [24
 
  <./pics/PLUcode.png>]
-Overfull \vbox (2.69318pt too high) detected at line 399
- []
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 397.
 
 [25
 
 ]
-Overfull \vbox (2.69318pt too high) detected at line 399
- []
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 397.
 
 [26
 
 ]
-Overfull \vbox (2.69318pt too high) detected at line 399
- []
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 397.
 
 [27
 
-]
-Overfull \vbox (2.69318pt too high) detected at line 399
- []
-
-[28
+] [28
 
 ] [29
 
 ] [30
 
-] [31
-
 ]
-<pics/laplace-lu.pdf, id=1859, 401.5pt x 401.5pt>
+<pics/laplace-lu.pdf, id=1803, 401.5pt x 401.5pt>
 
-./Determinants.tex:447: Illegal unit of measure (pt inserted).
+./Determinants.tex:445: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.447 \end{frame}
+l.445 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1236,10 +912,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Determinants.tex:447: Illegal unit of measure (pt inserted).
+./Determinants.tex:445: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.447 \end{frame}
+l.445 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1250,11 +926,13 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: pics/laplace-lu.pdf Graphic file (type pdf)
 <use pics/laplace-lu.pdf>
-Package pdftex.def Info: pics/laplace-lu.pdf  used on input line 447.
+Package pdftex.def Info: pics/laplace-lu.pdf  used on input line 445.
 (pdftex.def)             Requested size: 180.00554pt x 180.0pt.
-[32
+[31
 
- <./pics/laplace-lu.pdf>] [33
+ <./pics/laplace-lu.pdf>] [32
+
+] [33
 
 ] [34
 
@@ -1268,15 +946,13 @@ Package pdftex.def Info: pics/laplace-lu.pdf  used on input line 447.
 
 ] [39
 
-] [40
-
 ]
-<pics/bird-lu.pdf, id=2352, 401.5pt x 401.5pt>
+<pics/bird-lu.pdf, id=2298, 401.5pt x 401.5pt>
 
-./Determinants.tex:542: Illegal unit of measure (pt inserted).
+./Determinants.tex:540: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.542 \end{frame}
+l.540 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1285,10 +961,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Determinants.tex:542: Illegal unit of measure (pt inserted).
+./Determinants.tex:540: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.542 \end{frame}
+l.540 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1299,19 +975,19 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: pics/bird-lu.pdf Graphic file (type pdf)
 <use pics/bird-lu.pdf>
-Package pdftex.def Info: pics/bird-lu.pdf  used on input line 542.
+Package pdftex.def Info: pics/bird-lu.pdf  used on input line 540.
 (pdftex.def)             Requested size: 180.00554pt x 180.0pt.
-[41
+[40
 
- <./pics/bird-lu.pdf>] [42
+ <./pics/bird-lu.pdf>] [41
 
 ]
-<pics/gauss-maple.pdf, id=2467, 401.5pt x 401.5pt>
+<pics/gauss-maple.pdf, id=2412, 401.5pt x 401.5pt>
 
-./Determinants.tex:576: Illegal unit of measure (pt inserted).
+./Determinants.tex:574: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.576 \end{frame}
+l.574 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1320,10 +996,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Determinants.tex:576: Illegal unit of measure (pt inserted).
+./Determinants.tex:574: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.576 \end{frame}
+l.574 \end{frame}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1334,11 +1010,11 @@ two letters. (See Chapter 27 of The TeXbook.)
 
 File: pics/gauss-maple.pdf Graphic file (type pdf)
 <use pics/gauss-maple.pdf>
-Package pdftex.def Info: pics/gauss-maple.pdf  used on input line 576.
+Package pdftex.def Info: pics/gauss-maple.pdf  used on input line 574.
 (pdftex.def)             Requested size: 180.00554pt x 180.0pt.
-[43
+[42
 
- <./pics/gauss-maple.pdf>] [44
+ <./pics/gauss-maple.pdf>] [43
 
 ]
 \tf@nav=\write6
@@ -1350,27 +1026,27 @@ Package pdftex.def Info: pics/gauss-maple.pdf  used on input line 576.
 \tf@snm=\write8
 \openout8 = `Determinants.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 586.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 586.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 584.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 584.
  (./Determinants.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 586.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 586.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 584.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 584.
 Package rerunfilecheck Info: File `Determinants.out' has not changed.
-(rerunfilecheck)             Checksum: AE5DEF8AEDC77C5873048BC229FE546B;895.
+(rerunfilecheck)             Checksum: 1B8854E195CB1B0A3D3496C266D542B9;895.
  ) 
 Here is how much of TeX's memory you used:
- 17911 strings out of 492616
- 338481 string characters out of 6135177
- 449199 words of memory out of 5000000
- 21290 multiletter control sequences out of 15000+600000
- 12642 words of font info for 46 fonts, out of 8000000 for 9000
+ 17910 strings out of 492616
+ 338477 string characters out of 6135177
+ 448199 words of memory out of 5000000
+ 21291 multiletter control sequences out of 15000+600000
+ 12947 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,20n,63p,806b,774s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Determinants.pdf (44 pages, 343982 bytes).
+Output written on Determinants.pdf (43 pages, 340851 bytes).
 PDF statistics:
- 2655 PDF objects out of 2984 (max. 8388607)
- 2509 compressed objects within 26 object streams
- 102 named destinations out of 1000 (max. 500000)
+ 2600 PDF objects out of 2984 (max. 8388607)
+ 2456 compressed objects within 25 object streams
+ 100 named destinations out of 1000 (max. 500000)
  238 words of extra memory for PDF output out of 10000 (max. 10000000)
 
