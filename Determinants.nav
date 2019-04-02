@@ -44,47 +44,47 @@
 \headcommand {\beamer@framepages {16}{16}}
 \headcommand {\slideentry {2}{3}{2}{17/19}{LU decomposition}{0}}
 \headcommand {\beamer@framepages {17}{19}}
-\headcommand {\slideentry {2}{3}{3}{20/21}{LU decomposition}{0}}
-\headcommand {\beamer@framepages {20}{21}}
-\headcommand {\slideentry {2}{3}{4}{22/22}{LU decomposition}{0}}
+\headcommand {\slideentry {2}{3}{3}{20/20}{LU decomposition}{0}}
+\headcommand {\beamer@framepages {20}{20}}
+\headcommand {\slideentry {2}{3}{4}{21/21}{LU decomposition}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\slideentry {2}{3}{5}{22/22}{LU decomposition}{0}}
 \headcommand {\beamer@framepages {22}{22}}
-\headcommand {\slideentry {2}{3}{5}{23/23}{LU decomposition}{0}}
+\headcommand {\slideentry {2}{3}{6}{23/23}{LU decomposition}{0}}
 \headcommand {\beamer@framepages {23}{23}}
-\headcommand {\slideentry {2}{3}{6}{24/24}{LU decomposition}{0}}
-\headcommand {\beamer@framepages {24}{24}}
-\headcommand {\slideentry {2}{3}{7}{25/27}{LU decomposition}{0}}
-\headcommand {\beamer@framepages {25}{27}}
-\headcommand {\slideentry {2}{3}{8}{28/29}{LU decomposition}{0}}
-\headcommand {\beamer@framepages {28}{29}}
-\headcommand {\slideentry {2}{3}{9}{30/30}{LU decomposition}{0}}
+\headcommand {\slideentry {2}{3}{7}{24/26}{LU decomposition}{0}}
+\headcommand {\beamer@framepages {24}{26}}
+\headcommand {\slideentry {2}{3}{8}{27/28}{LU decomposition}{0}}
+\headcommand {\beamer@framepages {27}{28}}
+\headcommand {\slideentry {2}{3}{9}{29/29}{LU decomposition}{0}}
+\headcommand {\beamer@framepages {29}{29}}
+\headcommand {\slideentry {2}{3}{10}{30/30}{LU decomposition}{0}}
 \headcommand {\beamer@framepages {30}{30}}
-\headcommand {\slideentry {2}{3}{10}{31/31}{LU decomposition}{0}}
-\headcommand {\beamer@framepages {31}{31}}
-\headcommand {\slideentry {2}{3}{11}{32/35}{LU decomposition}{0}}
-\headcommand {\beamer@framepages {32}{35}}
-\headcommand {\beamer@subsectionpages {16}{35}}
-\headcommand {\beamer@subsectionentry {0}{2}{4}{36}{Bird's algorithm}}
-\headcommand {\slideentry {2}{4}{1}{36/37}{Bird's algorithm}{0}}
-\headcommand {\beamer@framepages {36}{37}}
-\headcommand {\slideentry {2}{4}{2}{38/39}{Bird's algorithm}{0}}
-\headcommand {\beamer@framepages {38}{39}}
-\headcommand {\slideentry {2}{4}{3}{40/40}{Bird's algorithm}{0}}
+\headcommand {\slideentry {2}{3}{11}{31/34}{LU decomposition}{0}}
+\headcommand {\beamer@framepages {31}{34}}
+\headcommand {\beamer@subsectionpages {16}{34}}
+\headcommand {\beamer@subsectionentry {0}{2}{4}{35}{Bird's algorithm}}
+\headcommand {\slideentry {2}{4}{1}{35/36}{Bird's algorithm}{0}}
+\headcommand {\beamer@framepages {35}{36}}
+\headcommand {\slideentry {2}{4}{2}{37/38}{Bird's algorithm}{0}}
+\headcommand {\beamer@framepages {37}{38}}
+\headcommand {\slideentry {2}{4}{3}{39/39}{Bird's algorithm}{0}}
+\headcommand {\beamer@framepages {39}{39}}
+\headcommand {\beamer@sectionpages {9}{39}}
+\headcommand {\beamer@subsectionpages {35}{39}}
+\headcommand {\sectionentry {3}{Epilogue}{40}{Epilogue}{0}}
+\headcommand {\beamer@subsectionpages {40}{39}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{40}{Summary of determinant algorithms}}
+\headcommand {\slideentry {3}{1}{1}{40/40}{Summary of determinant algorithms}{0}}
 \headcommand {\beamer@framepages {40}{40}}
-\headcommand {\beamer@sectionpages {9}{40}}
-\headcommand {\beamer@subsectionpages {36}{40}}
-\headcommand {\sectionentry {3}{Epilogue}{41}{Epilogue}{0}}
-\headcommand {\beamer@subsectionpages {41}{40}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{41}{Summary of determinant algorithms}}
-\headcommand {\slideentry {3}{1}{1}{41/41}{Summary of determinant algorithms}{0}}
+\headcommand {\beamer@subsectionpages {40}{40}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{41}{How fast is Maple's implementation?}}
+\headcommand {\slideentry {3}{2}{1}{41/41}{How fast is Maple's implementation?}{0}}
 \headcommand {\beamer@framepages {41}{41}}
-\headcommand {\beamer@subsectionpages {41}{41}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{42}{How fast is Maple's implementation?}}
-\headcommand {\slideentry {3}{2}{1}{42/42}{How fast is Maple's implementation?}{0}}
+\headcommand {\slideentry {3}{2}{2}{42/42}{How fast is Maple's implementation?}{0}}
 \headcommand {\beamer@framepages {42}{42}}
-\headcommand {\slideentry {3}{2}{2}{43/43}{How fast is Maple's implementation?}{0}}
-\headcommand {\beamer@framepages {43}{43}}
-\headcommand {\beamer@partpages {1}{43}}
-\headcommand {\beamer@subsectionpages {42}{43}}
-\headcommand {\beamer@sectionpages {41}{43}}
-\headcommand {\beamer@documentpages {43}}
+\headcommand {\beamer@partpages {1}{42}}
+\headcommand {\beamer@subsectionpages {41}{42}}
+\headcommand {\beamer@sectionpages {40}{42}}
+\headcommand {\beamer@documentpages {42}}
 \headcommand {\gdef \inserttotalframenumber {28}}

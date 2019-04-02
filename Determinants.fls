@@ -341,9 +341,9 @@ INPUT ./pics/laplace-lu.pdf
 INPUT pics/bird-lu.pdf
 INPUT ./pics/bird-lu.pdf
 INPUT ./pics/bird-lu.pdf
-INPUT pics/gauss-maple.pdf
-INPUT ./pics/gauss-maple.pdf
-INPUT ./pics/gauss-maple.pdf
+INPUT pics/lu-maple.pdf
+INPUT ./pics/lu-maple.pdf
+INPUT ./pics/lu-maple.pdf
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmss17.tfm
 OUTPUT Determinants.nav
 OUTPUT Determinants.toc
